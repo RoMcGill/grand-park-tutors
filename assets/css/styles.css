@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    color: yellow;
 }
 
 
@@ -17,25 +18,29 @@ body{
 }
 
 .header {
-    background: red;
+    background: rgb(0, 0, 0);
     height: 120px;
 }
 
 .footer {
-    background: green;
+    background: rgb(0, 0, 0);
     height: 80px;
 }
 
 .main {
     text-align: left;
-    background: blue;
+    background: rgb(0, 0, 0);
     height: 300px;
     font-size: 24px;
 }
-.biggie
+.biggie{
+    width: 300px;
+    height: 300px;
+    align-items: flex-end;
+}
 
 .aside1 {
-    background: brown;
+    background: rgb(0, 0, 0);
 
 }
 
