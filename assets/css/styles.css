@@ -1,3 +1,8 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 .wrapper{
     display: flex;
     flex-flow: wrap;
@@ -5,8 +10,8 @@
 }
 
 .wrapper * {
-    padding: 10px ;
-    margin: 10px;
+    padding: 5px ;
+    margin: 2px;
     flex: 1 100%;
     border-radius: 10px;
 }
@@ -27,24 +32,23 @@
     height: 300px;
     font-size: 24px;
 }
+.biggie
 
 .aside1 {
     background: brown;
+
 }
 
-.aside2 {
-    background: cadetblue;
-}
 
 @media all and (min-width: 800px){
     .main{
-        flex: 3;
+        flex: 1;
     }
     .aside1{
-        order: 1;
+        order: 2;
     }
     .main{
-        order: 2;
+        order: 3;
     }
     .footer{
         order: 4;
