@@ -1,0 +1,60 @@
+.wrapper{
+    display: flex;
+    flex-flow: wrap;
+    text-align: center;
+}
+
+.wrapper * {
+    padding: 10px ;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px;
+}
+
+.header {
+    background: red;
+    height: 120px;
+}
+
+.footer {
+    background: green;
+    height: 80px;
+}
+
+.main {
+    text-align: left;
+    background: blue;
+    height: 300px;
+    font-size: 24px;
+}
+
+.aside1 {
+    background: brown;
+}
+
+.aside2 {
+    background: cadetblue;
+}
+
+@media all and (min-width: 800px){
+    .main{
+        flex: 3;
+    }
+    .aside1{
+        order: 1;
+    }
+    .main{
+        order: 2;
+    }
+    .footer{
+        order: 4;
+    }
+}
+
+
+@media all and (min-width: 600px){
+    .aside {
+        flex: 1;
+    }
+}
+
