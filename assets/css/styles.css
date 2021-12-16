@@ -12,15 +12,21 @@ body{
 
 .wrapper * {
     padding: 5px ;
-    margin: 2px;
+    margin: 0;
     flex: 1 100%;
-    border-radius: 10px;
+    
 }
 
 .header {
     background: rgb(0, 0, 0);
+    color: floralwhite;
     height: 120px;
     font-family: 'Gochi Hand', cursive;
+    text-align: start;
+    display:flex;
+    align-items: center;
+    flex-grow: 1;
+
 }
 
 .footer {
@@ -31,13 +37,27 @@ body{
 .main {
     text-align: left;
     background: rgb(0, 0, 0);
-    height: 300px;
+    height: 500px;
     font-size: 24px;
 }
 .biggie{
     width: 300px;
     height: 300px;
     align-items: flex-end;
+    animation-name: hero-zoom;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+
+}
+
+
+@keyframes hero-zoom{
+    from{
+        transform: scale(2);
+    }
+    to{
+        transform: scale(1);
+    }
 }
 
 .aside1 {
@@ -48,7 +68,7 @@ body{
 
 @media all and (min-width: 800px){
     .main{
-        flex: 1;
+        flex: 3;
     }
     .aside1{
         order: 2;
@@ -66,5 +86,14 @@ body{
     .aside {
         flex: 1;
     }
+}
+
+    #menu .active {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+    margin-left: auto;
+    display: inline;
+    
 }
 
