@@ -25,7 +25,7 @@ body{
     text-align: start;
     display:flex;
     align-items: center;
-    flex-grow: 1;
+    
 
 }
 
@@ -37,8 +37,9 @@ body{
 .main {
     text-align: left;
     background: rgb(0, 0, 0);
-    height: 500px;
+    height: 800px;
     font-size: 24px;
+
 }
 .biggie{
     width: 300px;
@@ -47,6 +48,7 @@ body{
     animation-name: hero-zoom;
 animation-duration: 1s;
 animation-fill-mode: forwards;
+float: left;
 
 }
 
@@ -97,3 +99,7 @@ animation-fill-mode: forwards;
     
 }
 
+.text-right section{
+    text-align: right;
+    margin-left: auto;
+}
