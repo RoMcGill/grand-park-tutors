@@ -1,6 +1,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    color: yellow;
+    color: rgb(156, 156, 156);
+    background-color: rgb(138, 138, 138);
+    text-decoration: none;
 }
 
 
@@ -11,23 +13,30 @@ body{
 }
 
 .wrapper * {
-    padding: 5px ;
-    margin: 0;
+    padding: px ;
+    margin: 1px;
     flex: 1 100%;
     
 }
 
 .header {
     background: rgb(0, 0, 0);
-    color: floralwhite;
-    height: 120px;
+    height: 150px;
     font-family: 'Gochi Hand', cursive;
-    text-align: start;
-    display:flex;
-    align-items: center;
-    
+    text-align: center;
+    text-decoration: none!important;
 
 }
+
+.menu {
+    text-align: center;
+}
+.header > h1 >a{
+    font-size: 50px;
+    color: white;
+}
+
+
 
 .footer {
     background: rgb(0, 0, 0);
@@ -39,12 +48,13 @@ body{
     background: rgb(0, 0, 0);
     height: 800px;
     font-size: 24px;
+    text-decoration: none;
 
 }
-.biggie{
-    width: 300px;
-    height: 300px;
-    align-items: flex-end;
+.landing-image{
+    width: 250px;
+    height: 250px;
+    align-items: center;
     animation-name: hero-zoom;
 animation-duration: 1s;
 animation-fill-mode: forwards;
@@ -61,12 +71,32 @@ float: left;
         transform: scale(1);
     }
 }
-
+/* i want theese to line up horizontaly below 800px*/
 .aside1 {
     background: rgb(0, 0, 0);
+    text-decoration: none;
+    
+   
 
 }
+.genre-links:hover {
+    animation-name: hero-zoom;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    font-size: 50px;
+    text-decoration: none;
+}
 
+.genre-links{
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+
+.genre-links a {
+    text-decoration: none;
+    color: white;
+}
 
 @media all and (min-width: 800px){
     .main{
@@ -93,13 +123,18 @@ float: left;
     #menu .active {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gold;
+    color: rgb(189, 189, 189);
     margin-left: auto;
     display: inline;
+    text-decoration: none;
     
 }
 
 .text-right section{
     text-align: right;
     margin-left: auto;
+    text-decoration: none;
+}
+.active{
+    color: white;
 }
