@@ -49,6 +49,7 @@ body{
     height: 800px;
     font-size: 24px;
     text-decoration: none;
+    overflow: scroll;
 
 }
 .landing-image{
@@ -138,3 +139,13 @@ float: left;
 .active{
     color: white;
 }
+
+a img { 
+    display:none;
+ }
+a:hover img { 
+    display:block;
+    height: 500px;
+  
+ }
+
