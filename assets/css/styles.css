@@ -76,10 +76,12 @@ float: left;
 .aside1 {
     background: rgb(0, 0, 0);
     text-decoration: none;
-    
-   
-
 }
+.title{
+    background-color: black;
+}
+    
+
 .genre-links:hover {
     animation-name: hero-zoom;
     animation-duration: .5s;
@@ -139,6 +141,9 @@ float: left;
 }
 .main .text-right {
     font-size: 50px;
+}
+.text-right{
+    background-color: black;
 }
 
 
