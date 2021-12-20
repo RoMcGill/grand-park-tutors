@@ -24,8 +24,6 @@
         <hr>
         <aside class="aside aside1">
             <h1>
-                Genres
-            </h1>
             <br>
             <hr>
             <nav class= "menu">
@@ -39,13 +37,31 @@
         </nav>
         <br>
         <hr>
-        <div>
-            <form method="post" action="contributetowhentheysaid@gmail.com">
-                <label for="contribute">Coppy and paste your info here</label><br>
-                <input type="text" id="contribute" name="contribute"><br>
-                <input type="submit" value="Submit" name="contribution">
+        <section class="form">
+        <div class ="container">
+            <form action="https://formspree.io/f/myyoyanj" method="post">
+
+                <div class="form-group">
+                    <label for="name" >Your Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="song-title" >Song Title</label>
+                    <input type="text" name="song-title" id="song-title">
+                </div>
+                <div class="form-group">
+                    <label for="genre" >Genre</label>
+                    <input type="text" name="genre" id="genre">
+                <div class="form-group">
+                        <label for="text" >Enter the meaning behind your favorite lyrics or songs here</label>
+                        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                </div>
             </form>
         </div>
+        <div id="status"></div>
+    </section>
         <br>
         <hr>
         <section>Check out our <a href="library.html" class="active">library</a> and expand your knowledge or  <a href="form.html" class= "active">contribute</a> and let the community know the meaning behind your favorite song </section>
