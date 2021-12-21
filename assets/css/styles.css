@@ -1,9 +1,17 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    color: #D5BFBF;
-    background-color: #316B83;
+    color: #ffffff;
+    /*background-color: #D5BFBF;*/
     text-decoration: none;
 }
+html{
+        background: url(/assets/images/daniel-chekalov-4YhwiEsL0AQ-unsplash.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
 
 
 .wrapper{
@@ -20,7 +28,7 @@ body{
 }
 
 .header {
-    background: #316B83;
+    /*background: #6D8299;*/
     height: 150px;
     font-family: 'Gochi Hand', cursive;
     text-align: center;
@@ -39,17 +47,27 @@ body{
 
 
 .footer {
-    background: #316B83;
+    /*background: #316B83;*/
     height: 80px;
 }
 
 .main {
     text-align: left;
-    background: #316B83;
+    /*background: #8CA1A5;*/
     height: 800px;
     font-size: 24px;
     text-decoration: none;
     overflow: scroll;
+    justify-content: right;
+
+}
+.main-2{
+    text-align: left;
+    height: 800px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: scroll;
+
 
 }
 .main a{
@@ -59,13 +77,13 @@ body{
 }
 footer .footer{
     text-align: center;
-    background-color: #316B83;
+    /*background-color: #316B83;*/
 }
 
 .footer > li{
     display: inline;
     height: 20px;
-    background-color: #316B83;
+    /*background-color: #316B83;*/
     text-align: center;
    
 }
@@ -74,7 +92,7 @@ footer i {
     margin: 1%;
     padding: 5%;
     color: #D5BFBF;
-    background-color: #316B83;
+    /*background-color: #316B83;*/
     text-align: center;
     
 }
@@ -101,28 +119,30 @@ float: left;
 }
 /* i want theese to line up horizontaly below 800px*/
 .aside1 {
-    background: #316B83;
+    /*background: #6D8299;*/
     text-decoration: none;
+    /*
 }
 .title{
-    background-color: #316B83;
+   background-color: #316B83;
 }
+*/
     
-
+}
 .genre-links:hover {
     animation-name: hero-zoom;
     animation-duration: .5s;
     animation-fill-mode: forwards;
     font-size: 50px;
     text-decoration: none;
-    box-shadow: 10px -10px 25px 0 rgba(143, 64, 248,0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+    box-shadow: 10px -10px 25px 0 rgba(38, 35, 43, 0.5), -10px 10px 25px 0 rgba(193, 231, 243, 0.5);
 }
 
 .genre-links{
     text-decoration: none;
     font-size: 35px;
-    text-shadow: 2px -2px 2px #26caf8, -2px 2px 2px #7c5ee9;
-    
+    text-shadow: 2px -2px 2px #273336, -2px 2px 2px #6b6580;
+    justify-items: auto;
 }
 
 .genre-links a {
@@ -132,6 +152,9 @@ float: left;
 
 @media all and (min-width: 800px){
     .main{
+        flex: 4;
+    }
+    .main-2{
         flex: 3;
     }
     .aside1{
@@ -142,6 +165,9 @@ float: left;
     }
     .footer{
         order: 4;
+    }
+    .main-2{
+        order: 5;
     }
 }
 
@@ -164,16 +190,27 @@ float: left;
 
 .text-right section{
     text-align: right;
-    margin-left: auto;
+    margin-left: 30px;
     text-decoration: none;
    
 }
 .main .text-right {
     font-size: 50px;
+    text-shadow: -2px 2px 2px #000000;
+    margin-left: 230px;
 }
+.main-2{
+    font-size: 50px;
+    text-shadow: -2px 2px 2px #000000;
+    margin-left: 230px;
+    float: inline-end;
+}
+
+/*
 .text-right{
-    background-color: #316B83;
+    /*background-color: #6D8299;
 }
+*/
 
 
 .active{
@@ -219,7 +256,7 @@ a:hover img {
 .form{
     height: 100vh;
     width: 100%;
-    background-color: #316B83;
+   /* background-color: #316B83;*/
     display: flex;
     align-items: center;
     justify-content: center;
