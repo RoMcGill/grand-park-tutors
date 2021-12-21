@@ -121,6 +121,7 @@ float: left;
 .genre-links{
     text-decoration: none;
     font-size: 35px;
+    text-shadow: 2px -2px 2px #26caf8, -2px 2px 2px #7c5ee9;
     
 }
 
