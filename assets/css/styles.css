@@ -1,7 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    color: rgb(156, 156, 156);
-    background-color: rgb(0, 0, 0);
+    color: #D5BFBF;
+    background-color: #316B83;
     text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ body{
 }
 
 .header {
-    background: rgb(0, 0, 0);
+    background: #316B83;
     height: 150px;
     font-family: 'Gochi Hand', cursive;
     text-align: center;
@@ -33,19 +33,19 @@ body{
 }
 .header > h1 >a{
     font-size: 50px;
-    color: white;
+    color: #D5BFBF;
 }
 
 
 
 .footer {
-    background: rgb(0, 0, 0);
+    background: #316B83;
     height: 80px;
 }
 
 .main {
     text-align: left;
-    background: rgb(0, 0, 0);
+    background: #316B83;
     height: 800px;
     font-size: 24px;
     text-decoration: none;
@@ -54,18 +54,18 @@ body{
 }
 .main a{
     text-decoration: none;
-    color: white;
+    color: #D5BFBF;
 
 }
 footer .footer{
     text-align: center;
-    background-color: black;
+    background-color: #316B83;
 }
 
 .footer > li{
     display: inline;
     height: 20px;
-    background-color: black;
+    background-color: #316B83;
     text-align: center;
    
 }
@@ -73,8 +73,8 @@ footer i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #585858;
-    background-color: black;
+    color: #D5BFBF;
+    background-color: #316B83;
     text-align: center;
     
 }
@@ -101,11 +101,11 @@ float: left;
 }
 /* i want theese to line up horizontaly below 800px*/
 .aside1 {
-    background: rgb(0, 0, 0);
+    background: #316B83;
     text-decoration: none;
 }
 .title{
-    background-color: black;
+    background-color: #316B83;
 }
     
 
@@ -127,7 +127,7 @@ float: left;
 
 .genre-links a {
     text-decoration: none;
-    color: white;
+    color: #D5BFBF;
 }
 
 @media all and (min-width: 800px){
@@ -172,7 +172,7 @@ float: left;
     font-size: 50px;
 }
 .text-right{
-    background-color: black;
+    background-color: #316B83;
 }
 
 
@@ -219,7 +219,7 @@ a:hover img {
 .form{
     height: 100vh;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #316B83;
     display: flex;
     align-items: center;
     justify-content: center;
