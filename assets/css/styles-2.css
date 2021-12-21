@@ -105,4 +105,16 @@ h3{
 }
 .hero-text h2{
     color: #316B83;
+    background-color: rgba(177, 182, 180, 0.5);
+    border-radius: 10px;
 }
+/*
+.hero-text-outline{
+    position: relative;
+    right: 10px;
+    top: 10px;
+    border-width: 2px;
+    border-color: #CAB8FF;
+  
+}
+*/
