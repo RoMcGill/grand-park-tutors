@@ -130,16 +130,16 @@ h3{
     text-align: center;
     
 }
-.genre-links{
-    float: left;
-    list-style-type: none;
-    display: block;
-    margin: 50px 20px;
+.genre-links ul{
+    margin: 0px;
+    float: right;
 }
 
-.charachter div{
-    width: 25%;
+.genre-links li{
     float: left;
+    list-style-type: none;
+    margin-right: 65px;
+    margin-left: 65px;
   
 }
 
@@ -147,9 +147,10 @@ h3{
     height: 200px;
     text-align: center;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-
-
+    
 }
-  
+  .genre-links h3{
+      text-align: center;
+      display:block;
+     
+  }
