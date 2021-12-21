@@ -75,7 +75,7 @@ h3{
     transition-delay: ease;
 }
 
-.spacing-under-nav {
+.spacing-after-nav {
     position: relative;
     top: -75px;
 }
@@ -118,3 +118,15 @@ h3{
   
 }
 */
+.about-border{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.about-content{
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    
+}
