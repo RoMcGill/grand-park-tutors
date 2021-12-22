@@ -99,13 +99,26 @@ h3{
 }
 .text-overlay{
     position: absolute;
-    top: 30%;
-    left: 39%;
-    width: 200px;
+    top: 60%;
+    left: 43%;
+    width: 375px;
     background-color: rgba(130, 136, 130, 0.3);
     border-radius: 10px;
 }
-
+@media screen and (max-width:800px){
+    .text-overlay{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 200px;
+    background-color: rgba(130, 136, 130, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    }
+    .genre-links{
+        align-items: center;
+    }
+}
 .about-border{
     max-width: 1200px;
     margin: 0 auto;
