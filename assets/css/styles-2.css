@@ -185,6 +185,7 @@ h3{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    z-index: 4;
     
   }
   #charachter-2{
@@ -192,6 +193,7 @@ h3{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    z-index: 3;
    
 }
     #charachter-3{
@@ -199,6 +201,7 @@ h3{
         text-align: center;
     margin-right: auto;
     margin-left: auto;
+    z-index: 3;
       
 }
     #charachter-4{
@@ -206,6 +209,7 @@ h3{
         text-align: center;
     margin-right: auto;
     margin-left: auto;
+    z-index: 1;
     
 }
 @media screen and (max-width:800px){
@@ -260,4 +264,24 @@ h3{
             grid-column: 2;
         }
         
+}footer .footer{
+    text-align: center;
+    /*background-color: #316B83;*/
+}
+
+.footer > li{
+    display: inline;
+    height: 20px;
+    /*background-color: #316B83;*/
+    text-align: center;
+   
+}
+footer i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: lightslategray;
+    /*background-color: #316B83;*/
+    text-align: center;
+    
 }
