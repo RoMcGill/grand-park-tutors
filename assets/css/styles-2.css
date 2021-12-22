@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     padding: 0;
@@ -87,19 +88,6 @@ h3{
     height: 500px;
     max-width: 100%;
 }
-@media screen and (max-width: 800px){
-    .hero-border .hero-text {
-        position: fixed;
-        height: 500px;
-        width: 100%;
-        overflow: hidden;
-        margin-right: 90%;
-    }
-    .hero-text{
-    width: 100%;
-    margin-right: 90%;
-}
-}
 
 .hero-border{
     position: relative;
@@ -107,31 +95,17 @@ h3{
     width: 100%;
     overflow: hidden;
     margin-top: 50px;
-
-}
-.hero-text{
-    position: relative;
-    left: 450px;
-    bottom: 300px;
-    width: 500px;
-    height: fit-content;
     
 }
-.hero-text h2{
-    color: #316B83;
-    background-color: rgba(177, 182, 180, 0.5);
+.text-overlay{
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    width: 200px;
+    background-color: rgba(130, 136, 130, 0.3);
     border-radius: 10px;
 }
-/*
-.hero-text-outline{
-    position: relative;
-    right: 10px;
-    top: 10px;
-    border-width: 2px;
-    border-color: #CAB8FF;
-  
-}
-*/
+
 .about-border{
     max-width: 1200px;
     margin: 0 auto;
@@ -162,6 +136,10 @@ h3{
     text-align: center;
     display: block;
     
+}
+.charachter :hover{
+    animation: bounce infinate 1s none infinite up,down fill-mode;
+
 }
   .genre-links h3{
       text-align: center;
