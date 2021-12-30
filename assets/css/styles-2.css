@@ -364,6 +364,9 @@ footer i {
   .songs-container h3{
       background-color: grey;
       color: aliceblue;
+      text-align: center;
+      border-radius: 10px;
+
       
   }
   @media screen and (max-width:800px){
