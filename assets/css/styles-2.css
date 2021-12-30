@@ -123,7 +123,7 @@ h3{
 .about-border{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 .about-content{
     display: block;
@@ -135,6 +135,7 @@ h3{
 .genre-links ul{
     margin: 0px;
     float: right;
+   
 }
 
 .genre-links li{
@@ -142,6 +143,7 @@ h3{
     list-style-type: none;
     margin-right: 65px;
     margin-left: 65px;
+    
   
 }
 
@@ -178,6 +180,7 @@ h3{
       gap: 1.5rem;
       grid-template-columns: 1fr 1fr 1fr 1fr ;
       grid-template-rows: 2fr 2fr;
+      padding: 0px 14px;
     
   }
   #charachter-1{
