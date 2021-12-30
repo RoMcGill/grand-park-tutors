@@ -353,12 +353,12 @@ footer i {
   /* hiphop page */
 
   .songs-container{
+      gap: 50px 0px;
       display: grid;
-      gap: 1.5rem;
       grid-template-columns: 4fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
-      padding: 30px 14px;
-    
+      padding: 30px 15px 15px;
+      grid-template-rows: fit-content(300px) fit-content(300px) 1fr;
     
   }
   .songs-container h3{
@@ -369,10 +369,10 @@ footer i {
   @media screen and (max-width:800px){
     .songs-container{
         display: grid;
-        gap: 1.5rem;
         grid-template-columns: 4fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         text-align: center;
+        grid-template-rows: fit-content(300px) fit-content(300px) 1fr;
 
     }
 }
@@ -380,6 +380,7 @@ footer i {
         #songs-text-4{
             grid-row: 1;
             grid-column: 2;
+       
         }
         #songs-text-2{
             grid-row: 2;
@@ -393,3 +394,16 @@ footer i {
             grid-row: 4;
             grid-column: 2;
         }
+        .video{
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; 
+            height: 0;
+          }
+          .video iframe{
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
