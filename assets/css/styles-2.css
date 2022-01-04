@@ -7,7 +7,7 @@ html, body {
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
-    color: lightslategray;
+    color: #0F0700;
 }
 
 html {
@@ -25,7 +25,7 @@ header {
 h1, h2 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 4px;
-    color: lightslategray;
+    color:#0F0700;
     text-transform: uppercase;
 }
 
@@ -186,7 +186,15 @@ width: 100%;
       grid-template-columns: 1fr 1fr 1fr 1fr ;
       grid-template-rows: 2fr 2fr;
       padding: 30px 14px;
+      
+
     
+  }
+  .charachter-container a {
+      text-decoration: none;
+      font-size: small;
+      text-align: center;
+      color: darkgrey;
   }
   #charachter-1{
     grid-column: 1;
@@ -372,7 +380,7 @@ footer i {
   }
   .songs-container h3{
       background-color: grey;
-      color: aliceblue;
+      color: rgb(240, 248, 255);
       text-align: center;
       border-radius: 10px;
 
