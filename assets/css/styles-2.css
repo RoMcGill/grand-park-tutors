@@ -76,6 +76,17 @@ h3{
    
 }
 /* .menu media query for burger dropdown menu */
+@media  screen and (max-width:628px) {
+    .menu li {
+       padding: 0px;
+       margin-right: 0px;
+       display: inline;
+    }
+    .menu{
+        letter-spacing: 0px;
+        
+    }
+}
 
 
 
