@@ -1,108 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+"When They Said"
 
-Welcome RoMcGill,
+This is a website for people who love music, where the user can be part of a community to learn about new music or teach others about their favourite music.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![](https://lh6.googleusercontent.com/SE5vaPZYvSs6z5fxtQKW3_pkROMxD-rlhNAJICmKN4qVj9gjQtuYiCMxR4tUz8kxWxSzHti2BzMGYUULNOa0Tu-gBJFpHLAc7_xOC2v1NBJRCxPj168_d4Q1hPVbsGpS0-16L_xi)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+User Experience (UX)
+--------------------
 
-## Gitpod Reminders
+-   User stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   First Time Visitor Goals
 
-`python3 -m http.server`
+-   As a First Time Visitor, I want to easily understand what the site is for. And why i should be interested in it.
 
-A blue button should appear to click: _Make Public_,
+-   ![](https://lh4.googleusercontent.com/KpTNb3A-beQmM084mmMz6eeLFTcoVhhDN70rZ5bcdZff5AaprInAtHsWje5t0-kUFDtOfcTf6-wmVoRcCaylQwNfVQT9cMa4GXI7D8BTmJ6ZEzkIEZr5q2hrq59MP2Bj5qf3VrXX)
 
-Another blue button should appear to click: _Open Browser_.
+-   As a First Time Visitor, I want to be able to easily navigate throughout the site to find content that relates to my interests.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![](https://lh4.googleusercontent.com/AAV3h6TJHg_Mq-4_cSxFwCd4Y1pV9i7Gjtf2NjokwwPljxHR0FOrXb55ryC2sITHyDJeZip4sK9e3nlPCyXbrmuXADYvinnnCZC3H7dVpUzYBcWdoDSNJPX6WQ_-Eiq2MuagS2gE)
 
-A blue button should appear to click: _Make Public_,
+-   As a First Time Visitor, I want to know if the site matches my interests.
 
-Another blue button should appear to click: _Open Browser_.
+-   As a First Time Visitor, I want to be excited and intrigued and feel I am in a fun, safe place with other users who share my interests. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![](https://lh6.googleusercontent.com/2KwmLFul5GpR6rBEDYpJtxcCss8yHTQg4j3PsLcJj6lp-KinofG9Wxz25-I9G5HsfTVG57YwbqiiiD3DMx33WnrFRrHycC4jitDQFT2bK1yLHGaOdME-bsdiuiMHTQtnjFHH80th)
 
-To log into the Heroku toolbelt CLI:
+-   Returning Visitor Goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+-   As a Returning Visitor, I want to find information on the most recent community contributions.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![](https://lh3.googleusercontent.com/_ytTChkIRIMc5g5VCCAijzB4ipaxj7oxoyrhh6SdjmQ41ds9NcE3UFUo05ZfH4UoVKa2SiZfJTzPhNChbRzB5Fzc-um-6KwbWjBmbZ5mr_BTH8aIoVHgAydexEtIVybX-PsLcU67)
 
-------
+-   As a Returning Visitor, I want to find out how I can contribute and add to the community.
 
-## Release History
+![](https://lh4.googleusercontent.com/71GABbXzzhAjiZQnkhTUHsegGHhGAUE-qIpX_Nv5jrgNBMWKd3sF3MMbHbn3nYk7Bjm9D0PR8qeZBHACXSO9LsK1L1f3VArkmwtDkeUEvMzd5CqVElejckA0DpTj2fwRl2TrTpcy)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   As a Returning Visitor, I want to find community links. And a way to personally connect with other community members on a platform that I am more familiar with.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+![](https://lh3.googleusercontent.com/1Zk6wvALM_-o8XO-7Wthx6JHl_n9VKDNOKHPmaXtV-VgRSten4-LfATw5g2F-d1Bg_MGgX3rorgZjP5W5Mo-J_Z3vS68vUz4id14ntQWo-ODwvbkESCn-9llBAhseJgvFnV2cbT3)
