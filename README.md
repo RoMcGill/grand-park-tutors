@@ -236,7 +236,7 @@ footer i {
 
 4. The Contribute page is for users to share the meaning or story behind their favourite songs and is fully functional
 > " As a Frequent User, I want to contribute more and help with the growth of the community.
-- To achieve this the Contribute form is linked to formspree wich allows the site owner to recieve form data directly to their email address.
+- To achieve this the Contribute form is linked to formspree wich allows the site owner to recieve form data directly to their email address. This data is then converted to HTML and uploaded as content to the site.
 
 Example (code to link form spreeand creating/styling the form) 
 
@@ -320,3 +320,18 @@ html formspree
 ![screenshot of contribute form](./assets/images/screenshot-of-form.png)
 
 -----
+## Features still to be added.
+1. I would like the form data to be automaticly uploaded onto the live site
+
+*when a user submits their favourite song and the meaning or story behind it i want that data to be uploaded to the site instantly or after an aproval phase.*
+
+- this would require more knowledge of java script and backend frameworks.
+I have looked into this and and have found someone using ggogle apps script to populate a google sheet from form data entere you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-populate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).  
+- I think another way to achieve this could be to create a fourm page and have the action of post and the url linked to a new forum submission so when a user enters data into the form it will get sent to the new submissions area on the forum page. this may not be the best way to implement such a feature but might be my only option without knowlede of java script or any backend frameworks or API's.  
+
+2. I would like to have a burger menu on my nav bar for when viewing on mobile devices.  
+*On some devices the links can be cluttered and lack breathing room which i think negatively impacts the asthetic of the nav bar*. 
+this is possible to do with javascript and a media query and i intend to add this feature soon.
+
+
+
