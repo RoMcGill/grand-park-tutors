@@ -133,8 +133,9 @@ css
         
       }
 ```
-image
+![screenshot of landing page on iphone](./assets/images/screenshot-of-landing-page-on-mobile.png)
 
+-----------
 
 2.  The site is easy to navigate 
 > " As a First Time Visitor, I want to be able to easily navigate throughout the site to find content that relates to my interests."
@@ -173,7 +174,9 @@ css
 }
 ```
 
-image
+![screenshot of nav bar](./assets/images/screenshot-of-navbar.png)
+
+------
 
 3. The footer element is at the bottom of each page with clearly defined social media links represented by icons.
 > " As Returning Visitor, I want to find community links. And a way to personally connect with other community members on a platform that I am more familiar with."
@@ -227,7 +230,11 @@ footer i {
     
 }
 ```
-4. The Contribute page is for users to share the meaning or story behind their favourite songs
+![screenshot of footer](./assets/images/screenshot-of-footer.png)
+
+------
+
+4. The Contribute page is for users to share the meaning or story behind their favourite songs and is fully functional
 > " As a Frequent User, I want to contribute more and help with the growth of the community.
 - To achieve this the Contribute form is linked to formspree wich allows the site owner to recieve form data directly to their email address.
 
@@ -310,4 +317,6 @@ html formspree
  <form action="https://formspree.io/f/myyoyanj" method="POST" id="my-form">
 ```
 
-image
+![screenshot of contribute form](./assets/images/screenshot-of-form.png)
+
+-----
