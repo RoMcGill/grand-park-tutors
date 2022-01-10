@@ -1,6 +1,6 @@
 # **"When They Said"**
 
-This is a website for people who love music, where the user can be part of a community to learn about new music or teach others about their favourite music.
+This is a website for people who love music, where the user can be a part of a community to learn about new music or teach others about their favourite music.
 
 ![](https://lh6.googleusercontent.com/SE5vaPZYvSs6z5fxtQKW3_pkROMxD-rlhNAJICmKN4qVj9gjQtuYiCMxR4tUz8kxWxSzHti2BzMGYUULNOa0Tu-gBJFpHLAc7_xOC2v1NBJRCxPj168_d4Q1hPVbsGpS0-16L_xi)
 
@@ -11,7 +11,7 @@ This is a website for people who love music, where the user can be part of a com
 
 #### First Time Visitor Goals
 
--   As a First Time Visitor, I want to easily understand what the site is for. And why i should be interested in it.
+-   As a First Time Visitor, I want to easily understand what the site is for and why I should be interested in it.
 
 -   ![](https://lh4.googleusercontent.com/KpTNb3A-beQmM084mmMz6eeLFTcoVhhDN70rZ5bcdZff5AaprInAtHsWje5t0-kUFDtOfcTf6-wmVoRcCaylQwNfVQT9cMa4GXI7D8BTmJ6ZEzkIEZr5q2hrq59MP2Bj5qf3VrXX)
 
@@ -19,9 +19,9 @@ This is a website for people who love music, where the user can be part of a com
 
 ![](https://lh4.googleusercontent.com/AAV3h6TJHg_Mq-4_cSxFwCd4Y1pV9i7Gjtf2NjokwwPljxHR0FOrXb55ryC2sITHyDJeZip4sK9e3nlPCyXbrmuXADYvinnnCZC3H7dVpUzYBcWdoDSNJPX6WQ_-Eiq2MuagS2gE)
 
--   As a First Time Visitor, I want to know if the site matches my interests.
 
--   As a First Time Visitor, I want to be excited and intrigued and feel I am in a fun, safe place with other users who share my interests. 
+
+-   As a First Time Visitor, I want to be excited, intrigued and feel I am in a fun and safe place with other users who share my interests.
 
 ![](https://lh6.googleusercontent.com/2KwmLFul5GpR6rBEDYpJtxcCss8yHTQg4j3PsLcJj6lp-KinofG9Wxz25-I9G5HsfTVG57YwbqiiiD3DMx33WnrFRrHycC4jitDQFT2bK1yLHGaOdME-bsdiuiMHTQtnjFHH80th)
 
@@ -31,11 +31,11 @@ This is a website for people who love music, where the user can be part of a com
 
 ![](https://lh3.googleusercontent.com/_ytTChkIRIMc5g5VCCAijzB4ipaxj7oxoyrhh6SdjmQ41ds9NcE3UFUo05ZfH4UoVKa2SiZfJTzPhNChbRzB5Fzc-um-6KwbWjBmbZ5mr_BTH8aIoVHgAydexEtIVybX-PsLcU67)
 
--   As a Returning Visitor, I want to find out how I can contribute and add to the community.
+-   As a Returning Visitor, I want to find out how I can contribute to the community.
 
 ![](https://lh4.googleusercontent.com/71GABbXzzhAjiZQnkhTUHsegGHhGAUE-qIpX_Nv5jrgNBMWKd3sF3MMbHbn3nYk7Bjm9D0PR8qeZBHACXSO9LsK1L1f3VArkmwtDkeUEvMzd5CqVElejckA0DpTj2fwRl2TrTpcy)
 
--   As a Returning Visitor, I want to find community links. And a way to personally connect with other community members on a platform that I am more familiar with.
+-   As a Returning Visitor, I want to find a way to personally connect with other community members on a platform that I am more familiar with.
 
 ![](https://lh3.googleusercontent.com/1Zk6wvALM_-o8XO-7Wthx6JHl_n9VKDNOKHPmaXtV-VgRSten4-LfATw5g2F-d1Bg_MGgX3rorgZjP5W5Mo-J_Z3vS68vUz4id14ntQWo-ODwvbkESCn-9llBAhseJgvFnV2cbT3)
 
@@ -43,27 +43,31 @@ This is a website for people who love music, where the user can be part of a com
 
 -   As a Frequent User, I want to contribute more and help with the growth of the community.
 
--   As a Frequent User, I want to check the latest contributions from community members.
+-   As a Frequent User, I want to check the most recent updates from community members.
 
--   As a Frequent User, I want to get in contact with the site owner and see how i can be more involved in the development of the community i love.
+-   As a Frequent User, I want to get in contact with the site owner and see how I can be more involved in the development of the community I love.
 
--  As a Frequent User i want to use the site on my phone while i am away from my desk. 
+-  As a Frequent User I want to be able to access the site on all of my devices. 
 
 ## Design
 _____
 ### Colour Scheme
 
--   The color scheme used is black,white and alice blue for great contrast and readability. Imagery was used to add extra pops of color and interest to the basic palette.
+-   The colour scheme used is black, white and alice blue for great contrast and readability. Imagery was used to add extra pops of colour and interest to the basic palette.
 
 ![](https://lh5.googleusercontent.com/HPdFnYJd1P_eORpwY7no6FMa6amHfn9V1Rw1tOLmu5_6KlWbZaAC1w4oE4Czw0bRYR_zX2Rz5uXoNp6M3MNZWHTytHyL7_Y9jtXuYe0AEU3yoC8dSGC0F4gO7zlcUGGWNjIlfhfi)
 
 ## Typography
 
--   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate. It is also familiar and widely used. This gives the user a feeling of familiarity and trust towards the site.
+-   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font, this is in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate. It is also familiar and widely used. This gives the user a feeling of familiarity and trust towards the site.
 
 ## Imagery
 
--   The imagery used was purposely chosen sized and positioned to convey a sense of professionalism, and trustworthiness without being dry or boring, the imagery used conveys fun, and is fit for purpose intended, the images used to represent each genre are fun but accurate representations of each genre which promote a positive emotional response.
+
+
+-The imagery used was purposely chosen, sized and positioned to convey a sense of professionalism and trustworthiness without being dry or boring. This use of imagery will promote a positive emotional response due to its fun and colourful nature.
+
+The hover animation used for the character images which make them bounce was also used to elevate 
 
 The animation for the character images to make them bounce is another key to provoking a positive emotional response. The act of bouncing or jumping up and down has been a response to happiness and excitement for years. This will subconsciously give the user a positive emotional response.
 
