@@ -106,6 +106,29 @@ When the site is viewed on a mobile device the imagery for the  genre links (th
 
 ## Features
 ____
+### * New Feature *
+- Remain anonymous when contributing
+> when testing i shared a link to some friends and colleagues one helpfull sugestion was that there should be an option to remain anonymous when submitting the form
+- a check box with the value of yes-remain-anonymous was added to the form.
+
+html
+```{r}. <div class="anonymous-button">
+                    <label for="anonymous-button">click here to remain anonymous</label>
+                    <input type="checkbox" id="anonymous-button" name="anonymous-button" value="yes-remain-anonymous">
+                </div>
+```
+
+result
+
+![form with anonymous checkbox](./assets/images/form.png)
+resulting email.
+
+![form result in email with anonymous checkbox](./assets/images/form-email.png)
+
+
+
+
+
 ### Existing Features
 1. The design of the site is fully responsive on all modern devices.
 > " As a Frequent User i want to use the site on my phone while i am away from my desk."
@@ -336,6 +359,4 @@ I have looked into this and and have found someone using ggogle apps script to p
 2. I would like to have a burger menu on my nav bar for when viewing on mobile devices.  
 *On some devices the links can be cluttered and lack breathing room which i think negatively impacts the asthetic of the nav bar*. 
 this is possible to do with javascript and a media query and i intend to add this feature soon.
-
-
 
