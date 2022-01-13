@@ -118,10 +118,11 @@ html
                 </div>
 ```
 
-result
+Result
 
 ![form with anonymous checkbox](./assets/images/form.png)
-resulting email.
+
+Resulting email.
 
 ![form result in email with anonymous checkbox](./assets/images/form-email.png)
 
@@ -356,7 +357,21 @@ html formspree
 I have looked into this and and have found someone using ggogle apps script to populate a google sheet from form data entere you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-populate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).  
 - I think another way to achieve this could be to create a fourm page and have the action of post and the url linked to a new forum submission so when a user enters data into the form it will get sent to the new submissions area on the forum page. this may not be the best way to implement such a feature but might be my only option without knowlede of java script or any backend frameworks or API's.  
 
-2. I would like to have a burger menu on my nav bar for when viewing on mobile devices.  
+2. I would like to have a hamburger menu on my nav bar for when viewing on mobile devices.  
 *On some devices the links can be cluttered and lack breathing room which i think negatively impacts the asthetic of the nav bar*. 
-this is possible to do with javascript and a media query and i intend to add this feature soon.
+this is possible to do with javascript and a media query and i intend to add this feature soon. i have started my research on youtube to grasp the basic concept one video i found helpful was https://www.youtube.com/watch?v=dIyVTjJAkLw&t=200s
 
+3. I would like to add the option to create an account and store users information and allow them to post/upload directly onto the site. to achieve this i would need more backend knowledge from what i have seen in this video https://www.youtube.com/watch?v=gCo6JqGMi30 it seems like PHP and MYSQLi databases must be used also.
+
+------
+### Testing 
+
+ the site is written with only HTML and CSS my testing will be focused on accesability,functionality and the visual asthetic.  
+ 1. accesability
+ -media querys
+ 2. functionality
+ - wcc teter 
+ 3. visual asthetic
+ - contrast checker
+
+ 
