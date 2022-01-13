@@ -264,9 +264,9 @@ footer i {
 
 4. The Contribute page is for users to share the meaning or story behind their favourite songs and is fully functional
 > " As a Frequent User, I want to contribute more and help with the growth of the community.
-- To achieve this the Contribute form is linked to formspree wich allows the site owner to recieve form data directly to their email address. This data is then converted to HTML and uploaded as content to the site.
+- To achieve this the Contribute form is linked to formspree wich allows the site owner to recieve form data directly to their email address. This data is then converted to HTML and uploaded as content to the site. this technique of linking formspree was learned from the youtube video https://www.youtube.com/watch?v=vc9rgFHr098&t=290s
 
-Example (code to link form spreeand creating/styling the form) 
+Example (code to link formspree and creating/styling the form) 
 
 html
 ```{r}. 
@@ -367,11 +367,22 @@ this is possible to do with javascript and a media query and i intend to add thi
 ### Testing 
 
  the site is written with only HTML and CSS my testing will be focused on accesability,functionality and the visual asthetic.  
- 1. accesability
- -media querys
- 2. functionality
- - wcc teter 
- 3. visual asthetic
- - contrast checker
+ 1. #### Accesability
+ to test the accesability of my site i carried out some manuel testing using google dev tools, amiresponsive and diffrent devices and screen sizes. one thing i was looking out for was if my media querys were performing as expected. to achieve this i used dev tools to resize each page of the site in each test the media querys functions how i expected without fault.
+ 2. #### Functionality
+ - to test the functionality of the site i used a combination of manuel testing and markup validators. using the W3C markup validator the site had no errors or warnings to show.
+ ![markup validator](./assets/images/html-check.png)
+ I generated a lighthouse report on dev tools and recieved 100 on accessibility, Best practice and SEO and 78 on Performance. this issue was soon fixed by resizing my images and using tinypng.com to compress each png file to make it a smaller file size for faster load times, i also recived some advice on stack overflow to preload my hero image. using these three methods i got the performance score up to 100. due to a function google has in active development i am no longer reciving 100 in best practice, the score is now at 93.
+ ![lighthouse score](./assets/images/lighthouse-score.png)
+ ![permission error](./assets/images/github-permissions-error.png)
+ ![stack overflow response](./assets/images/stack-overflow-response.png)
+ I am confident once google fixes this bug my site will achieve 100 in every catagory.
+ I used the The W3C CSS Validation Service to test my CSS code, The result came back with no errors.
+ ![css validator](./assets/images/css-validator.png)
+ - manual Testing. 
+ tho test the site manually i ensured that all links opend the correct page and in and all pages in the nav bar lead to the correct destination. i have also made many submissions into the form to make sure that everything is functioning as it should, throughout the process of coding the website i was continuously testing every feature added and never left a feature that didnt work in the project until it was fully functional.
+3. #### Visual asthetic
+ - i manually chacked the colors on my site using colors.co, I did this because I felt that the contrast generators were not grate at recognising where the colours are on the page and trying to contrast two colours that are not relevant to eachother.using colors.co the cotrasr between the text and background recieved a score of 11.63 and 4 out of 5 stars.
+ ![contrast check](./assets/images/contrast-check.png)
 
  
