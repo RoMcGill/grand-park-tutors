@@ -372,7 +372,8 @@ this is possible to do with javascript and a media query and i intend to add thi
 
 
 ------
-### Testing 
+## Testing 
+
 
  the site is written with only HTML and CSS my testing will be focused on accesability,functionality and the visual asthetic.  
  1. #### Accesability
@@ -392,8 +393,9 @@ this is possible to do with javascript and a media query and i intend to add thi
 3. #### Visual asthetic
  - i manually chacked the colors on my site using colors.co, I did this because I felt that the contrast generators were not grate at recognising where the colours are on the page and trying to contrast two colours that are not relevant to eachother. Using colors.co the cotrast between the text and background recieved a score of 11.63 and 4 out of 5 stars.
  ![contrast check](./assets/images/contrast-check.png)
-
- ### Bugs/Fixes 
+----
+ ## Bugs/Fixes 
+ 
  1. on my landing page for desktop use i wanted to layout my "genre charachters" with text underneath them untill the screen size reached a width of 800px. as this was early on in the project i did not know weather to use Flex, Grid, or floats.  
  - Fix
  after getting some advice from my mentor the fix was to use display-grid and divide the the container by fractions, this aloowed me to have 4 columns and 2 rows when the screen size was more than 800px. i then added a media query with the max width of 800px and devided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
@@ -508,11 +510,13 @@ How i worked out the issue on paper
 ![bug fix](./assets/images/bug-notepad.png)
 
 Outcome
+
  ![charaschter-desktop](./assets/images/charchter-desktop.png)
  ![charaschter-mobile](./assets/images/charchter-mobile.png)
 
-### Deployment
-----
+------
+## Deployment
+
 For this project i have used Gitpod. throughout the process i have been adding and commiting code to my Github repository. from there i can deploy my live site to make it accessable to everyone. I do this by using Github Pages.  
 1.
 from my Github repository navagate to settings on the far right near the top of the page
@@ -532,6 +536,51 @@ when all of the previous steps are complete you should be givin this message
 
 the site is now live and ready to view by anyone with the link. it can take Github a couple of miutes to push all of the data to the the live site and to publish the page.
 
+## Technologies used 
+------
+
+ ### Balsamiq
+Balsamiq was used to create wireframes for the project
+
+### Font Awesome
+The project uses icons from Font Awesome in the nav bar
+
+### Coolors.co
+The colour scheme and pallette were generated and tested using coolors.co
 
 
- 
+### Chrome DevTools
+This was used to test and debug my site as i went thorough the proscess of building it.
+the lighthouse feature was used to create a report on the performance of the site.
+
+### Google Fonts
+The fonts used on the site are imported from Google Fonts.
+
+### Formspree
+this was used to link my contribute form directly to my email address.
+
+
+### W3C Validation Servicees
+these services were were used to validate my css and HTML code to ensure there wwas no errors.
+
+### Gitpod
+this was my IDE and where i wrote all of my code, Made commits and pushed to Github.
+
+## Credits
+-----
+### Content and media 
+- https://www.wikipedia.org/ for information on music genres.
+- https://www.billboard.com/ + https://www.rollingstone.com/ for in depth information on the songs and artists.
+- https://www.freepik.com/ + https://www.shutterstock.com/ + https://unsplash.com/s/photos/singer for images.
+
+### Ackwnowledgements
+- My code institute mentor Antonio Rodriguez for all of his help, tips and feedback. 
+- My Cohort facilatator Kasia for all of her help and encouragement throughout the project.
+- WEB CIFAR on youtube for a great video on how to set up formspree
+- the stackoverflow community for responding to questions and having built up a massive database of invaluable tips,tricks and bug fixes
+- https://medium.com/ for teaching the bounce animation in a clear way
+- W3schools.com for easy to follow lessons on Grid and Flex
+- Kevin Powell on youtube for all of his Css tips and tricks.
+- fellow students at code institute for answering all of my questions.
+- Peter Szabo for his attention to detail and Great feedback.
+- code institute for supplying an amazing course, from the content to the staff and alumni. 
