@@ -4,6 +4,60 @@ This is a website for people who love music, where the user can be a part of a c
 
 ![](https://lh6.googleusercontent.com/SE5vaPZYvSs6z5fxtQKW3_pkROMxD-rlhNAJICmKN4qVj9gjQtuYiCMxR4tUz8kxWxSzHti2BzMGYUULNOa0Tu-gBJFpHLAc7_xOC2v1NBJRCxPj168_d4Q1hPVbsGpS0-16L_xi)
 
+-----
+<details>
+<summary>Table of Contents </summary>
+
+* [User Experience (UX)](#user-experience--ux-)
+    + [User stories](#user-stories)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
+      - [Returning Visitor Goals](#returning-visitor-goals)
+      - [Frequent User Goals](#frequent-user-goals)
+  * [Design](#design)
+    + [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+* [Wireframes](#wireframes)
+    + [Home Page Wireframe](#home-page-wireframe)
+    + [Mobile Wireframe -](#mobile-wireframe--)
+    + [genre pages and footer](#genre-pages-and-footer)
+    + [Genre page and footer mobile](#genre-page-and-footer-mobile)
+    + [Contribute Page Wireframe](#contribute-page-wireframe)
+    + [Contribute page wireframe mobile](#contribute-page-wireframe-mobile)
+* [Features](#features)
+    + [* New Feature *](#--new-feature--)
+    + [Existing Features](#existing-features)
+  * [Features still to be added.](#features-still-to-be-added)
+* [Testing](#testing)
+    + [Accesability](#accesability)
+    + [Functionality](#functionality)
+    + [Visual asthetic](#visual-asthetic)
+* [Bugs/Fixes](#bugs-fixes)
+* [Deployment](#deployment)
+* [Technologies used](#technologies-used)
+    + [Balsamiq](#balsamiq)
+    + [Font Awesome](#font-awesome)
+    + [Coolors.co](#coolorsco)
+    + [Chrome DevTools](#chrome-devtools)
+    + [Google Fonts](#google-fonts)
+    + [Formspree](#formspree)
+    + [W3C Validation Servicees](#w3c-validation-servicees)
+    + [Gitpod](#gitpod)
+* [Credits](#credits)
+    + [Content and media](#content-and-media)
+    + [Ackwnowledgements](#ackwnowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+</details>
+
+-----
+
+ 
+ 
+
+
 ## User Experience (UX)
 --------------------
 
