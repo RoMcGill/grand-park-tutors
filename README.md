@@ -78,11 +78,11 @@ The animation for the character images to make them bounce is another key to pro
 
 ![](https://lh5.googleusercontent.com/m8YuWVrXgpg9_N7DjJ_8-DwCMz1RCqjtbS63IvlGrUyjpzsLt-VEk1bt_AO5Ij7O6bejYAFhj2onqmAg_5GDg-pGoSLSWAPrVSgdPBdojy9-ZOGZgmicWghdRcGgQvguqFUxYfvs)
 
-When the site is viewed on a mobile device the imagery for the  genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a catch 22. Following best practice rules for ux it is unusual and untypical to have this happen
+When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a catch 22. Following best practice rules for ux it is unusual and untypical to have this happen
 
 ![](https://lh4.googleusercontent.com/N4dHqRzplD8wAGFjkKEykYQj0kVDauKgX9CKXqd9YMxyb4rSXXuSByPQvjcnONO-AHOKpCjoKOEWxxNU2bPDK3B6HzKI7JIKLHRlcF-ocCEgnz5gFYMCtQJ1DQhyHrzEK2eAR902)
 
- using the z-index the character hovers over the nav bar when scrolling through the sections. This was implemented intentionally and serves a purpose, that purpose being that when the user is scrolling through that section of the page their attention is kept to that specific section. This was done to avoid any distraction and lead to a user clicking away before they found what they are looking for. It also adds a refreshing design element that may interest or excite the user.
+using the z-index the character hovers over the nav bar when scrolling through the sections. This was implemented intentionally and serves a purpose, that purpose being that when the user is scrolling through that section of the page their attention is kept to that specific section. This was done to avoid any distraction and lead to a user clicking away before they found what they are looking for. It also adds a refreshing design element that may interest or excite the user.
 
 #  Wireframes
 ### Home Page Wireframe
@@ -91,7 +91,7 @@ When the site is viewed on a mobile device the imagery for the  genre links (th
 
 ### Mobile Wireframe -
 
- ![](https://lh3.googleusercontent.com/IELRQ3H7bYnjX8PJRNV4rUpFfdKtN698XFlmgesk51DYb3wZ-KQL90onRHfqm7-_rkGeWjimaGVDv_1q29u5tM0716yKgxOjS8XQgKyM_0l7cVF0st8Ppy7DeIY6UJ91MJ80RLXm)
+![](https://lh3.googleusercontent.com/IELRQ3H7bYnjX8PJRNV4rUpFfdKtN698XFlmgesk51DYb3wZ-KQL90onRHfqm7-_rkGeWjimaGVDv_1q29u5tM0716yKgxOjS8XQgKyM_0l7cVF0st8Ppy7DeIY6UJ91MJ80RLXm)
 
 ### genre pages and footer
 
@@ -396,7 +396,7 @@ this is possible to do with javascript and a media query and i intend to add thi
  ### Bugs/Fixes 
  1. on my landing page for desktop use i wanted to layout my "genre charachters" with text underneath them untill the screen size reached a width of 800px. as this was early on in the project i did not know weather to use Flex, Grid, or floats.  
  - Fix
- in the end the fix was to use display, grid and devide the the container by fractions, this aloowed me to have 4 columns and 2 rows when the screen size was more than 800px. i then added a media query with the max width of 800px and devided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
+ after getting some advice from my mentor the fix was to use display-grid and divide the the container by fractions, this aloowed me to have 4 columns and 2 rows when the screen size was more than 800px. i then added a media query with the max width of 800px and devided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
  
 css
 ```r
@@ -505,8 +505,32 @@ css
 }
 ````
 How i worked out the issue on paper
-![bug fix](./assets/images/bug-notepad.jpeg)
+![bug fix](./assets/images/bug-notepad.png)
 
+Outcome
+ ![charaschter-desktop](./assets/images/charchter-desktop.png)
+ ![charaschter-mobile](./assets/images/charchter-mobile.png)
+
+### Deployment
+----
+For this project i have used Gitpod. throughout the process i have been adding and commiting code to my Github repository. from there i can deploy my live site to make it accessable to everyone. I do this by using Github Pages.  
+1.
+from my Github repository navagate to settings on the far right near the top of the page
+![step one for deployment](./assets/images/step-1-deployment.png)
+![step one for deployment](./assets/images/step-2-deployment.png)
+2.
+on the left hand side of the screen there will be a listr of options, from these options select, pages
+![step 2 for deployment](./assets/images/step-3-deployment.png)   
+3.
+when in the pages section select "branch : main" as the source and ensure the directory is selected as "/(root)"
+then click save. (my save button is currently grey and unclickable as i have aready deployed my site). 
+
+![step 3 for deployment](./assets/images/step-5-deplyment.png) 
+4.
+when all of the previous steps are complete you should be givin this message
+![step 4 for deplyment](./assets/images/step-6-deployment.png)
+
+the site is now live and ready to view by anyone with the link. it can take Github a couple of miutes to push all of the data to the the live site and to publish the page.
 
 
 
