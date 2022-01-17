@@ -2,6 +2,11 @@
 
 This is a website for people who love music, where the user can be a part of a community to learn about new music or teach others about their favourite music.
 
+-----
+Live site: https://romcgill.github.io/when-they-said/index.html
+
+-----
+
 ![](https://lh6.googleusercontent.com/SE5vaPZYvSs6z5fxtQKW3_pkROMxD-rlhNAJICmKN4qVj9gjQtuYiCMxR4tUz8kxWxSzHti2BzMGYUULNOa0Tu-gBJFpHLAc7_xOC2v1NBJRCxPj168_d4Q1hPVbsGpS0-16L_xi)
 
 -----
