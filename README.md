@@ -52,7 +52,7 @@ Live site: https://romcgill.github.io/when-they-said/index.html
     + [Content and media](#content-and-media)
     + [Ackwnowledgements](#ackwnowledgements)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+<small><I><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></I></small>
 
 
 </details>
@@ -120,7 +120,7 @@ _____
 
 -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font, this is in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate. It is also familiar and widely used. This gives the user a feeling of familiarity and trust towards the site.
 
-* (update) the new font family used for the nav bar is 'Segoe UI', I chose this font after reciveing feedback from family and friends who tought that montserrat was a too sharp to be at the top of the page and would be better left for the page vontent instead. as a back up i added in some other font families that are not unlinke Segoe UI whith a final destination of sans-serif if all els fails.
+* (update) The new font family used for the nav bar is 'Segoe UI', I chose this font after receiving feedback from family and friends who thought that montserrat was too sharp to be at the top of the page and would be better left for the page content instead. As a back up I added in some other font families that are not unlinke Segoe UI with a final destination of sans-serif if all else fails.
 ```r
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 ```
@@ -131,13 +131,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
 -The imagery used was purposely chosen, sized and positioned to convey a sense of professionalism and trustworthiness without being dry or boring. This use of imagery will promote a positive emotional response due to its fun and colourful nature.
 
-The hover animation used for the character images which make them bounce was also used to elevate 
+The hover animation used for the character images which make them bounce was also used to elevate the user experience.
 
-The animation for the character images to make them bounce is another key to provoking a positive emotional response. The act of bouncing or jumping up and down has been a response to happiness and excitement for years. This will subconsciously give the user a positive emotional response.
+
 
 ![](https://lh5.googleusercontent.com/m8YuWVrXgpg9_N7DjJ_8-DwCMz1RCqjtbS63IvlGrUyjpzsLt-VEk1bt_AO5Ij7O6bejYAFhj2onqmAg_5GDg-pGoSLSWAPrVSgdPBdojy9-ZOGZgmicWghdRcGgQvguqFUxYfvs)
 
-When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a catch 22. Following best practice rules for ux it is unusual and untypical to have this happen
+When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a catch 22. Following best practice rules for ux it is unusual and untypical to have this happen.
 
 ![](https://lh4.googleusercontent.com/N4dHqRzplD8wAGFjkKEykYQj0kVDauKgX9CKXqd9YMxyb4rSXXuSByPQvjcnONO-AHOKpCjoKOEWxxNU2bPDK3B6HzKI7JIKLHRlcF-ocCEgnz5gFYMCtQJ1DQhyHrzEK2eAR902)
 
@@ -172,8 +172,8 @@ using the z-index the character hovers over the nav bar when scrolling through t
 ____
 ### * New Feature *
 - Remain anonymous when contributing
-> when testing i shared a link to some friends and colleagues one helpfull sugestion was that there should be an option to remain anonymous when submitting the form
-- a check box with the value of yes-remain-anonymous was added to the form.
+> When testing I shared a link to friends and colleagues one helpful suggestion was that there should be an option to remain anonymous when submitting the form.
+- A check box with the value of yes-remain-anonymous was added to the form.
 
 html
 ```{r}. <div class="anonymous-button">
@@ -196,10 +196,10 @@ Resulting email.
 
 ### Existing Features
 1. The design of the site is fully responsive on all modern devices.
-> " As a Frequent User i want to use the site on my phone while i am away from my desk."
-- The site useses a combination of the Grid layout and media querys to achieve this.
+> " As a Frequent User I want to use the site on my phone while I am away from my desk."
+- The site uses a combination of the Grid layout and media queries to achieve this.
 
-Example (code for charachters to re align if screen width is less than 800px) 
+Example (code for characters to re-align if screen width is less than 800px) 
 
 html
 ```{r}. <div class="charachter-container">
@@ -231,7 +231,7 @@ css
 
 2.  The site is easy to navigate 
 > " As a First Time Visitor, I want to be able to easily navigate throughout the site to find content that relates to my interests."
-- The site useses a header with a fixed position so the user can always navigate to each page with ease.
+- The site uses a header with a fixed position so the user can always navigate to each page with ease.
 
 Example (code for my header and nav bar.) 
 
@@ -244,11 +244,11 @@ html
     <!--nav bar--> 
                 <nav class= "menu">
                     <ul>
-                        <li class="genre-links"><a href="rock.html"><i class="fas fa-guitar"></i>Rock</a></li>
-                    <li class="genre-links"><a href="hip-hop.html"><i class="fas fa-music"></i>Hip-Hop</a></li>
-                    <li class="genre-links"><a href="country.html"><i class="fas fa-headphones"></i>Country</a></li>
-                    <li class="genre-links"><a href="pop.html" ><i class="fas fa-microphone"></i>Pop</a></li>
-                    <li class="genre-links"><a href="form.html"><i class="fas fa-file-upload"></i>Contribute</a></li>
+                        <li class="genre-links"><a href="rock.html"><I class="fas fa-guitar"></I>Rock</a></li>
+                    <li class="genre-links"><a href="hip-hop.html"><I class="fas fa-music"></I>Hip-Hop</a></li>
+                    <li class="genre-links"><a href="country.html"><I class="fas fa-headphones"></I>Country</a></li>
+                    <li class="genre-links"><a href="pop.html" ><I class="fas fa-microphone"></I>Pop</a></li>
+                    <li class="genre-links"><a href="form.html"><I class="fas fa-file-upload"></I>Contribute</a></li>
                     </ul>
                 </nav>
             
@@ -271,8 +271,8 @@ css
 ------
 
 3. The footer element is at the bottom of each page with clearly defined social media links represented by icons.
-> " As Returning Visitor, I want to find community links. And a way to personally connect with other community members on a platform that I am more familiar with."
-- The site useses icons from fontawsome.com to achieve this and some css styling to make the icons match the color scheme of the site 
+> " As Returning Visitor, I want to find community links and a way to personally connect with other community members on a platform that I am more familiar with."
+- The site uses icons from fontawesome.com to achieve this and some css styling to make the icons match the colour scheme of the site. 
 
 Example (HTML and css code for my footer) 
 
@@ -282,16 +282,16 @@ html
         <footer>
             <ul class= "footer">
                 <li>
-                    <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab)"> <i class="fab fa-facebook-f"></i></a>
+                    <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab)"> <I class="fab fa-facebook-f"></I></a>
                 </li>
                 <li>
-                    <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab)"> <i class="fab fa-twitter"></i></a>
+                    <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab)"> <I class="fab fa-twitter"></I></a>
                 </li>
                 <li>
-                    <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"> <i class="fab fa-instagram"></i></a>
+                    <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"> <I class="fab fa-instagram"></I></a>
                 </li>
                 <li>
-                    <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"> <i class="fab fa-youtube"></i></a>
+                    <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"> <I class="fab fa-youtube"></I></a>
                 </li>
             </ul>
     
@@ -312,7 +312,7 @@ footer .footer{
     text-align: center;
    
 }
-footer i {
+footer I {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -328,7 +328,7 @@ footer i {
 
 4. The Contribute page is for users to share the meaning or story behind their favourite songs and is fully functional
 > " As a Frequent User, I want to contribute more and help with the growth of the community.
-- To achieve this the Contribute form is linked to formspree wich allows the site owner to recieve form data directly to their email address. This data is then converted to HTML and uploaded as content to the site. this technique of linking formspree was learned from the youtube video https://www.youtube.com/watch?v=vc9rgFHr098&t=290s
+- To achieve this the Contribute form is linked to formspree which allows the site owner to receive form data directly to their email address. This data is then converted to HTML and uploaded as content to the site. This technique of linking formspree was learned from the youtube video https://www.youtube.com/watch?v=vc9rgFHr098&t=290s
 
 Example (code to link formspree and creating/styling the form) 
 
@@ -413,51 +413,51 @@ html formspree
 
 -----
 ## Features still to be added.
-1. I would like the form data to be automaticly uploaded onto the live site
+1. I would like the form data to be automatically uploaded onto the live site
 
-*when a user submits their favourite song and the meaning or story behind it i want that data to be uploaded to the site instantly or after an aproval phase.*
+*When a user submits their favourite song and the meaning or story behind it I want that data to be uploaded to the site instantly or after an approval phase.*
 
-- this would require more knowledge of java script and backend frameworks.
-I have looked into this and and have found someone using ggogle apps script to populate a google sheet from form data entere you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-populate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).  
-- I think another way to achieve this could be to create a fourm page and have the action of post and the url linked to a new forum submission so when a user enters data into the form it will get sent to the new submissions area on the forum page. this may not be the best way to implement such a feature but might be my only option without knowlede of java script or any backend frameworks or API's.  
+- This would require more knowledge of java script and backend frameworks.
+I have looked into this and have found someone using google apps script to populate a google sheet from form data enteries you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-populate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).  
+- I think another way to achieve this could be to create a forum page and have the action of post and the URL linked to a new forum submission so when a user enters data into the form it will get sent to the new submissions area on the forum page. This may not be the best way to implement such a feature but might be my only option without knowledge of java script or any backend frameworks or API's.  
 
 2. I would like to have a hamburger menu on my nav bar for when viewing on mobile devices.  
-*On some devices the links can be cluttered and lack breathing room which i think negatively impacts the asthetic of the nav bar*. 
-this is possible to do with javascript and a media query and i intend to add this feature soon. i have started my research on youtube to grasp the basic concept one video i found helpful was https://www.youtube.com/watch?v=dIyVTjJAkLw&t=200s
+*On some devices the links can be cluttered and lack breathing room which I think negatively impacts the asthetic of the nav bar*. 
+This is possible to do with javascript and a media query and I intend to add this feature soon. I have started my research on youtube to grasp the basic concept one video I found helpful was https://www.youtube.com/watch?v=dIyVTjJAkLw&t=200s
 
-3. I would like to add the option to create an account and store users information and allow them to post/upload directly onto the site. to achieve this i would need more backend knowledge from what i have seen in this video https://www.youtube.com/watch?v=gCo6JqGMi30 it seems like PHP and MYSQLi databases must be used also.
+3. I would like to add the option to create an account and store users information and allow them to post/upload directly onto the site. To achieve this I would need more backend knowledge from what I have seen in this video https://www.youtube.com/watch?v=gCo6JqGMi30 it seems like PHP and MYSQLi databases must be used also.
 
-4. I would like to add a content block that bolcks mature content, in the case of explicit language or mature content. java script is required for this so i intend to add it at a late date. my research as brought me here https://vpsfix.com/1806/adult-content-warning-javascript-image-hosting-sites/ this details the process to add a adult content warning to the page as you enter. I want only relevent content to be blocked with a small checkbox above that the user must click to gain access to the content, all other content would still be visible if the checkbox was left unchecked.
+4. I would like to add a content block that bolcks mature content, in the case of explicit language or mature content. Java Script is required for this so I intend to add it at a later date. My research has brought me here https://vpsfix.com/1806/adult-content-warning-javascript-image-hosting-sites/ This details the process to add an adult content warning to the page as you enter. I want only relevent content to be blocked with a small checkbox above that the user must click to gain access to the content, all other content would still be visible if the checkbox was left unchecked.
 
 
 ------
 ## Testing 
 
 
- the site is written with only HTML and CSS my testing will be focused on accesability,functionality and the visual asthetic.  
+ The site is written with only HTML and CSS my testing will be focused on accessibility,functionality and the visual asthetic.  
  1. #### Accesability
- to test the accesability of my site i carried out some manuel testing using google dev tools, amiresponsive and diffrent devices and screen sizes. one thing i was looking out for was if my media querys were performing as expected. to achieve this i used dev tools to resize each page of the site in each test the media querys functions how i expected without fault.
+ To test the accessibility of my site I carried out some manual testing using google dev tools, amiresponsive and different devices and screen sizes. One thing I was looking for was if my media queries were performing as expected. To achieve this I used dev tools to resize each page of the site in each test the media queries functions how I expected without fault.
  2. #### Functionality
- - to test the functionality of the site i used a combination of manuel testing and markup validators. using the W3C markup validator the site had no errors or warnings to show.
+ - To test the functionality of the site I used a combination of manual testing and markup validators. Using the W3C markup validator the site had no errors or warnings to show.
  ![markup validator](./assets/images/html-check.png)
- I generated a lighthouse report on dev tools and recieved 100 on accessibility, Best practice and SEO and 78 on Performance. this issue was soon fixed by resizing my images and using tinypng.com to compress each png file to make it a smaller file size for faster load times, i also recived some advice on stack overflow to preload my hero image. using these three methods i got the performance score up to 100. due to a function google has in active development i am no longer reciving 100 in best practice, the score is now at 93.
+ I generated a lighthouse report on dev tools and recieved 100 on accessibility, best practice and SEO and 78 on performance. This issue was soon fixed by resizing my images and using tinypng.com to compress each png file to make it a smaller file size for faster load times, I also received some advice on stack overflow to preload my hero image. Using these three methods I got the performance score up to 100. due to a function google has in active development I am no longer receiving 100 in best practice, the score is now at 93.
  ![lighthouse score](./assets/images/lighthouse-score.png)
  ![permission error](./assets/images/github-permissions-error.png)
  ![stack overflow response](./assets/images/stack-overflow-response.png)
- I am confident once google fixes this bug my site will achieve 100 in every catagory.
+ I am confident once google fixes this bug my site will achieve 100 in every category.
  I used the The W3C CSS Validation Service to test my CSS code, The result came back with no errors.
  ![css validator](./assets/images/css-validator.png)
- - manual Testing. 
- tho test the site manually i ensured that all links opend the correct page and in and all pages in the nav bar lead to the correct destination. i have also made many submissions into the form to make sure that everything is functioning as it should, throughout the process of coding the website i was continuously testing every feature added and never left a feature that didnt work in the project until it was fully functional.
+ - Manual Testing. 
+ To test the site manually I ensured that all links opened to the correct page and all of the pages in the nav bar lead to the correct destination. I have also made many submissions into the form to make sure that everything is functioning as it should, throughout the process of coding the website I was continuously testing every feature added and never left a feature that didnt work in the project until it was fully functional.
 3. #### Visual asthetic
- - i manually chacked the colors on my site using colors.co, I did this because I felt that the contrast generators were not grate at recognising where the colours are on the page and trying to contrast two colours that are not relevant to eachother. Using colors.co the cotrast between the text and background recieved a score of 11.63 and 4 out of 5 stars.
+ - I manually checked the colours on my site using colors.co, I did this because I felt that the contrast validators were not great at recognising where the colours are on the page. They try to contrast two colours that are not relevant to eachother. Using colors.co the contrast between the text and background received a score of 11.63 and 4 out of 5 stars.
  ![contrast check](./assets/images/contrast-check.png)
 ----
  ## Bugs/Fixes 
  
- 1. on my landing page for desktop use i wanted to layout my "genre charachters" with text underneath them untill the screen size reached a width of 800px. as this was early on in the project i did not know weather to use Flex, Grid, or floats.  
+ 1. On my landing page for desktop use I wanted to layout my "genre characters" with text underneath them until the screen size reached a width of 800px. As this was early on in the project I did not know whether to use Flex, Grid, or Floats.  
  - Fix
- after getting some advice from my mentor the fix was to use display-grid and divide the the container by fractions, this aloowed me to have 4 columns and 2 rows when the screen size was more than 800px. i then added a media query with the max width of 800px and devided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
+ After getting some advice from my mentor the fix was to use display-grid and divide the the container by fractions, this allowed me to have 4 columns and 2 rows when the screen size was more than 800px. I then added a media query with the max width of 800px and divided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
  
 css
 ```r
@@ -565,7 +565,7 @@ css
         
 }
 ````
-How i worked out the issue on paper
+How I worked out the issue on paper
 ![bug fix](./assets/images/bug-notepad.png)
 
 Outcome
@@ -576,24 +576,24 @@ Outcome
 ------
 ## Deployment
 
-For this project i have used Gitpod. throughout the process i have been adding and commiting code to my Github repository. from there i can deploy my live site to make it accessable to everyone. I do this by using Github Pages.  
+For this project I have used Gitpod. throughout the process I have been adding and committing code to my Github repository. From there I can deploy my live site to make it accessible to everyone. I do this by using Github Pages.  
 1.
-from my Github repository navagate to settings on the far right near the top of the page
+From my Github repository navigate to settings on the far right near the top of the page
 ![step one for deployment](./assets/images/step-1-deployment.png)
 ![step one for deployment](./assets/images/step-2-deployment.png)
 2.
-on the left hand side of the screen there will be a listr of options, from these options select, pages
+In the left hand side of the screen there will be a list of options, from these options select pages
 ![step 2 for deployment](./assets/images/step-3-deployment.png)   
 3.
-when in the pages section select "branch : main" as the source and ensure the directory is selected as "/(root)"
-then click save. (my save button is currently grey and unclickable as i have aready deployed my site). 
+When in the pages section select "branch : main" as the source and ensure the directory is selected as "/(root)"
+then click save. (my save button is currently grey and unclickable as I have aready deployed my site). 
 
 ![step 3 for deployment](./assets/images/step-5-deplyment.png) 
 4.
-when all of the previous steps are complete you should be givin this message
+When all of the previous steps are complete you should be given this message
 ![step 4 for deplyment](./assets/images/step-6-deployment.png)
 
-the site is now live and ready to view by anyone with the link. it can take Github a couple of miutes to push all of the data to the the live site and to publish the page.
+The site is now live and ready to view by anyone with the link. It can take Github a couple of minutes to push all of the data to the live site and to publish the page.
 
 ## Technologies used 
 ------
@@ -605,25 +605,25 @@ Balsamiq was used to create wireframes for the project
 The project uses icons from Font Awesome in the nav bar
 
 ### Coolors.co
-The colour scheme and pallette were generated and tested using coolors.co
+The colour scheme and palette were generated and tested using coolors.co
 
 
 ### Chrome DevTools
-This was used to test and debug my site as i went thorough the proscess of building it.
-the lighthouse feature was used to create a report on the performance of the site.
+This was used to test and debug my site as I went through the process of building it.
+The lighthouse feature was used to create a report on the performance of the site.
 
 ### Google Fonts
 The fonts used on the site are imported from Google Fonts.
 
 ### Formspree
-this was used to link my contribute form directly to my email address.
+This was used to link my contribute form directly to my email address.
 
 
-### W3C Validation Servicees
-these services were were used to validate my css and HTML code to ensure there wwas no errors.
+### W3C Validation Services
+These services were used to validate my css and HTML code to ensure there was no errors.
 
 ### Gitpod
-this was my IDE and where i wrote all of my code, Made commits and pushed to Github.
+This was my IDE and where I wrote all of my code, Made commits and pushed to Github.
 
 ## Credits
 -----
@@ -633,13 +633,13 @@ this was my IDE and where i wrote all of my code, Made commits and pushed to Git
 - https://www.freepik.com/ + https://www.shutterstock.com/ + https://unsplash.com/s/photos/singer for images.
 
 ### Ackwnowledgements
-- My code institute mentor Antonio Rodriguez for all of his help, tips and feedback. 
-- My Cohort facilatator Kasia for all of her help and encouragement throughout the project.
+- I would like to thank my Code Institute mentor Antonio Rodriguez for all of his help, tips and feedback. 
+- My Cohort facilitator Kasia for all of her help and encouragement throughout the project.
 - WEB CIFAR on youtube for a great video on how to set up formspree
-- the stackoverflow community for responding to questions and having built up a massive database of invaluable tips,tricks and bug fixes
+- The stackoverflow community for responding to questions and having built up a massive database of invaluable tips,tricks and bug fixes
 - https://medium.com/ for teaching the bounce animation in a clear way
 - W3schools.com for easy to follow lessons on Grid and Flex
 - Kevin Powell on youtube for all of his Css tips and tricks.
-- fellow students at code institute for answering all of my questions.
-- Peter Szabo for his attention to detail and Great feedback.
-- code institute for supplying an amazing course, from the content to the staff and alumni. 
+- Fellow students at Code Institute for answering all of my questions.
+- Peter Szabo for his attention to detail and great feedback.
+- Code Institute for supplying an amazing course, from the content to the staff and alumni. 
