@@ -299,13 +299,12 @@ width: 100%;
 /* footer */
 footer .footer{
     text-align: center;
-    /*background-color: #316B83;*/
+    
 }
 
 .footer > li{
     display: inline;
     height: 20px;
-    /*background-color: #316B83;*/
     text-align: center;
    
 }
@@ -314,7 +313,6 @@ footer i {
     margin: 1%;
     padding: 5%;
     color: lightslategray;
-    /*background-color: #316B83;*/
     text-align: center;
     
 }

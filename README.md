@@ -61,6 +61,11 @@ _____
 
 -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font, this is in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate. It is also familiar and widely used. This gives the user a feeling of familiarity and trust towards the site.
 
+* (update) the new font family used for the nav bar is 'Segoe UI', I chose this font after reciveing feedback from family and friends who tought that montserrat was a too sharp to be at the top of the page and would be better left for the page vontent instead. as a back up i added in some other font families that are not unlinke Segoe UI whith a final destination of sans-serif if all els fails.
+```r
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+```
+
 ## Imagery
 
 
@@ -363,6 +368,9 @@ this is possible to do with javascript and a media query and i intend to add thi
 
 3. I would like to add the option to create an account and store users information and allow them to post/upload directly onto the site. to achieve this i would need more backend knowledge from what i have seen in this video https://www.youtube.com/watch?v=gCo6JqGMi30 it seems like PHP and MYSQLi databases must be used also.
 
+4. I would like to add a content block that bolcks mature content, in the case of explicit language or mature content. java script is required for this so i intend to add it at a late date. my research as brought me here https://vpsfix.com/1806/adult-content-warning-javascript-image-hosting-sites/ this details the process to add a adult content warning to the page as you enter. I want only relevent content to be blocked with a small checkbox above that the user must click to gain access to the content, all other content would still be visible if the checkbox was left unchecked.
+
+
 ------
 ### Testing 
 
@@ -382,7 +390,124 @@ this is possible to do with javascript and a media query and i intend to add thi
  - manual Testing. 
  tho test the site manually i ensured that all links opend the correct page and in and all pages in the nav bar lead to the correct destination. i have also made many submissions into the form to make sure that everything is functioning as it should, throughout the process of coding the website i was continuously testing every feature added and never left a feature that didnt work in the project until it was fully functional.
 3. #### Visual asthetic
- - i manually chacked the colors on my site using colors.co, I did this because I felt that the contrast generators were not grate at recognising where the colours are on the page and trying to contrast two colours that are not relevant to eachother.using colors.co the cotrasr between the text and background recieved a score of 11.63 and 4 out of 5 stars.
+ - i manually chacked the colors on my site using colors.co, I did this because I felt that the contrast generators were not grate at recognising where the colours are on the page and trying to contrast two colours that are not relevant to eachother. Using colors.co the cotrast between the text and background recieved a score of 11.63 and 4 out of 5 stars.
  ![contrast check](./assets/images/contrast-check.png)
+
+ ### Bugs/Fixes 
+ 1. on my landing page for desktop use i wanted to layout my "genre charachters" with text underneath them untill the screen size reached a width of 800px. as this was early on in the project i did not know weather to use Flex, Grid, or floats.  
+ - Fix
+ in the end the fix was to use display, grid and devide the the container by fractions, this aloowed me to have 4 columns and 2 rows when the screen size was more than 800px. i then added a media query with the max width of 800px and devided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
+ 
+css
+```r
+.charachter-container{
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      grid-template-rows: 2fr 2fr;
+      padding: 30px 14px;
+      
+
+    
+  }
+  .charachter-container a {
+      text-decoration: none;
+      font-size: small;
+      text-align: center;
+      color:#0645AD;
+  }
+  #charachter-1{
+    grid-column: 1;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 4;
+    
+  }
+  #charachter-2{
+    grid-column: 2;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 3;
+   
+}
+    #charachter-3{
+        grid-column: 3;
+        text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 3;
+      
+}
+    #charachter-4{
+        grid-column: 4;
+        text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    
+}
+@media screen and (max-width:800px){
+    .charachter-container{
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        
+    }
+    #charachter-1{
+        grid-column: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        
+      }
+      #charachter-2{
+        grid-column: 1;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+       
+    }
+        #charachter-3{
+            grid-column: 1;
+            text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+          
+    }
+        #charachter-4{
+            grid-column: 1;
+            text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        }  
+        /* text under charachter */
+
+        #charachter-text-1{
+            grid-row: 1;
+            grid-column: 2;
+        }
+        #charachter-text-2{
+            grid-row: 2;
+            grid-column: 2;
+        }
+        #charachter-text-3{
+            grid-row: 3;
+            grid-column: 2;
+        }
+        #charachter-text-4{
+            grid-row: 4;
+            grid-column: 2;
+        }
+        
+}
+````
+How i worked out the issue on paper
+![bug fix](./assets/images/bug-notepad.jpeg)
+
+
+
 
  
