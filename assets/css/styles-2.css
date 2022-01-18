@@ -212,7 +212,7 @@ width: 100%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    z-index: 4;
+    
     
   }
   #character-2{
@@ -220,7 +220,7 @@ width: 100%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    z-index: 3;
+    
    
 }
     #character-3{
@@ -228,7 +228,7 @@ width: 100%;
         text-align: center;
     margin-right: auto;
     margin-left: auto;
-    z-index: 3;
+  
       
 }
     #character-4{
@@ -236,7 +236,7 @@ width: 100%;
         text-align: center;
     margin-right: auto;
     margin-left: auto;
-    z-index: 1;
+  
     
 }
 @media screen and (max-width:800px){
