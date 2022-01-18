@@ -202,10 +202,11 @@ Resulting email.
 Example (code for characters to re-align if screen width is less than 800px) 
 
 html
-```{r}. <div class="charachter-container">
-                <div id="charachter-1">
-                    <a href="hip-hop.html">
-                        <img src="./assets/images/hiphop.png" class="charachter"  alt="hip-hop charachter">Click me to learn about HIPHOP</a> 
+```
+ <div class="charachter-container">
+    <div id="charachter-1">
+    <a href="hip-hop.html">
+    <img src="./assets/images/hiphop.png" class="charachter"  alt="hip-hop charachter">Click me to learn about HIPHOP</a> 
 ```   
 css
 ```{r}.
@@ -242,15 +243,15 @@ html
             <h1 class="logo">When They Said</h1>
         </a>
     <!--nav bar--> 
-                <nav class= "menu">
-                    <ul>
-                        <li class="genre-links"><a href="rock.html"><I class="fas fa-guitar"></I>Rock</a></li>
-                    <li class="genre-links"><a href="hip-hop.html"><I class="fas fa-music"></I>Hip-Hop</a></li>
-                    <li class="genre-links"><a href="country.html"><I class="fas fa-headphones"></I>Country</a></li>
-                    <li class="genre-links"><a href="pop.html" ><I class="fas fa-microphone"></I>Pop</a></li>
-                    <li class="genre-links"><a href="form.html"><I class="fas fa-file-upload"></I>Contribute</a></li>
-                    </ul>
-                </nav>
+<nav class= "menu">
+    <ul>
+        <li class="genre-links"><a href="rock.html"><I class="fas fa-guitar"></I>Rock</a></li>
+        <li class="genre-links"><a href="hip-hop.html"><I class="fas fa-music"></I>Hip-Hop</a></li>
+        <li class="genre-links"><a href="country.html"><I class="fas fa-headphones"></I>Country</a></li>
+        <li class="genre-links"><a href="pop.html" ><I class="fas fa-microphone"></I>Pop</a></li>
+        <li class="genre-links"><a href="form.html"><I class="fas fa-file-upload"></I>Contribute</a></li>
+    </ul>
+</nav>
             
     </header>
 ```    
@@ -279,23 +280,23 @@ Example (HTML and css code for my footer)
 html
 ```{r}. 
 <div>
-        <footer>
-            <ul class= "footer">
-                <li>
-                    <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab)"> <I class="fab fa-facebook-f"></I></a>
-                </li>
-                <li>
-                    <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab)"> <I class="fab fa-twitter"></I></a>
-                </li>
-                <li>
-                    <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"> <I class="fab fa-instagram"></I></a>
-                </li>
-                <li>
-                    <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"> <I class="fab fa-youtube"></I></a>
-                </li>
-            </ul>
+    <footer>
+        <ul class= "footer">
+            <li>
+                <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page (opens in a new tab)"> <I class="fab fa-facebook-f"></I></a>
+            </li>
+            <li>
+                <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page (opens in a new tab)"> <I class="fab fa-twitter"></I></a>
+            </li>
+            <li>
+                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page (opens in a new tab)"> <I class="fab fa-instagram"></I></a>
+            </li>
+            <li>
+                <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"> <I class="fab fa-youtube"></I></a>
+            </li>
+        </ul>
     
-        </footer>
+    </footer>
     </div>
 ``` 
 css          
