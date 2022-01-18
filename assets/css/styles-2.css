@@ -33,10 +33,6 @@ h2 {
     margin: 30px 0;
 }
 
-h3{
-    text-transform: uppercase;
-}
-
 .logo {
     float: left;
     font-size: 200%;
@@ -112,17 +108,17 @@ width: 100%;
     top: 60%;
     left: 43%;
     width: 375px;
-    background-color: rgba(130, 136, 130, 0.3);
+    background-color: rgba(130, 136, 130, 0.5);
     border-radius: 10px;
     color: seashell;
 }
 @media screen and (max-width:800px){
     .text-overlay{
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 40%;
     width: 200px;
-    background-color: rgba(130, 136, 130, 0.3);
+    background-color: rgba(130, 136, 130, 0.4);
     border-radius: 10px;
     text-align: center;
     }
