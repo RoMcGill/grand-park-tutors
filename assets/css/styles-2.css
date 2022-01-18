@@ -111,6 +111,7 @@ width: 100%;
     background-color: rgba(130, 136, 130, 0.5);
     border-radius: 10px;
     color: seashell;
+    padding: 20px;
 }
 @media screen and (max-width:800px){
     .text-overlay{
@@ -121,6 +122,7 @@ width: 100%;
     background-color: rgba(130, 136, 130, 0.4);
     border-radius: 10px;
     text-align: center;
+    padding: 20px;
     }
     .genre-links{
         align-items: center;
