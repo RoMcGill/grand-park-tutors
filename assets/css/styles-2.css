@@ -392,8 +392,12 @@ footer i {
       color: rgb(240, 248, 255);
       text-align: center;
       border-radius: 10px;
-
-      
+      padding: 20px;
+  
+  }
+  #song-content{
+      text-align: center;
+      padding: 20px;
   }
   @media screen and (max-width:800px){
     .songs-container{
