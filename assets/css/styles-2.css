@@ -381,9 +381,9 @@ footer i {
   .songs-container{
  
       padding: 30px 15px 15px;
-      
-    
+
   }
+
   
   .songs-container h3{
       background-color: grey;
@@ -393,21 +393,10 @@ footer i {
       padding: 20px;
   
   }
-  #song-content{
+  .song-content{
       text-align: center;
       padding: 20px;
   }
-  @media screen and (max-width:800px){
-    .songs-container{
-        display: grid;
-        grid-template-columns: 4fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        text-align: center;
-        grid-template-rows: fit-content(300px) fit-content(300px) 1fr;
-
-    }
-}
-  
         #songs-text-4{
             grid-row: 1;
             grid-column: 2;
