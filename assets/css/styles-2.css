@@ -379,14 +379,12 @@ footer i {
   /* genre pages */
 
   .songs-container{
-      gap: 50px 0px;
-      display: grid;
-      grid-template-columns: 4fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr;
+ 
       padding: 30px 15px 15px;
-      grid-template-rows: fit-content(300px) fit-content(300px) 1fr;
+      
     
   }
+  
   .songs-container h3{
       background-color: grey;
       color: rgb(240, 248, 255);
