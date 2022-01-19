@@ -137,7 +137,8 @@ The hover animation used for the character images which make them bounce was als
 
 ![](https://lh5.googleusercontent.com/m8YuWVrXgpg9_N7DjJ_8-DwCMz1RCqjtbS63IvlGrUyjpzsLt-VEk1bt_AO5Ij7O6bejYAFhj2onqmAg_5GDg-pGoSLSWAPrVSgdPBdojy9-ZOGZgmicWghdRcGgQvguqFUxYfvs)
 
-When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a catch 22. Following best practice rules for ux it is unusual and untypical to have this happen.
+When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a catch 22. Following best practice rules for ux it is unusual and untypical to have this happen. 
+### (This feature has since been removed following feedback from my mentor and other code institute students in the peer code review channel on slack.)
 
 ![](https://lh4.googleusercontent.com/N4dHqRzplD8wAGFjkKEykYQj0kVDauKgX9CKXqd9YMxyb4rSXXuSByPQvjcnONO-AHOKpCjoKOEWxxNU2bPDK3B6HzKI7JIKLHRlcF-ocCEgnz5gFYMCtQJ1DQhyHrzEK2eAR902)
 
@@ -439,7 +440,7 @@ This is possible to do with javascript and a media query and I intend to add thi
  1. #### Accesability
  To test the accessibility of my site I carried out some manual testing using google dev tools, amiresponsive and different devices and screen sizes. One thing I was looking for was if my media queries were performing as expected. To achieve this I used dev tools to resize each page of the site in each test the media queries functions how I expected without fault.
  2. #### Functionality
- - To test the functionality of the site I used a combination of manual testing and markup validators. Using the W3C markup validator the site had no errors or warnings to show.
+ - To test the functionality of the site I used a combination of manual testing and markup validators. Using the W3C markup validator the site had no errors or warnings to show on any page.
  ![markup validator](./assets/images/html-check.png)
  I generated a lighthouse report on dev tools and recieved 100 on accessibility, best practice and SEO and 78 on performance. This issue was soon fixed by resizing my images and using tinypng.com to compress each png file to make it a smaller file size for faster load times, I also received some advice on stack overflow to preload my hero image. Using these three methods I got the performance score up to 100. due to a function google has in active development I am no longer receiving 100 in best practice, the score is now at 93.
  ![lighthouse score](./assets/images/lighthouse-score.png)
