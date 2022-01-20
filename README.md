@@ -597,8 +597,39 @@ When all of the previous steps are complete you should be given this message
 
 The site is now live and ready to view by anyone with the link. It can take Github a couple of minutes to push all of the data to the live site and to publish the page.
 
+## Forking the GitHub Repository. 
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+You should now have a copy of the original repository in your GitHub account.
+
+## Making a Local Clone
+
+Log in to GitHub and locate the GitHub Repository
+Under the repository name, click "Clone or download".
+To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+Open Git Bash
+Change the current working directory to the location where you want the cloned directory to be made.
+Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Press Enter. Your local clone will be created. 
+```
+ git clone : https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+- Cloning into `CI-Clone`...
+- remote: Counting objects: 10, done.
+- remote: Compressing objects: 100% (8/8), done.
+- remove: Total 10 (delta 1), reused 10 (delta 1)
+- Unpacking objects: 100% (10/10), done.
+```
+
 ## Technologies used 
 ------
+### Languages Used
+
+- HTML5
+- CSS
 
  ### Balsamiq
 Balsamiq was used to create wireframes for the project
@@ -633,7 +664,7 @@ This was my IDE and where I wrote all of my code, Made commits and pushed to Git
 - https://www.wikipedia.org/ for information on music genres.
 - https://www.billboard.com/ + https://www.rollingstone.com/ for in depth information on the songs and artists.
 - https://www.freepik.com/ + https://www.shutterstock.com/ + https://unsplash.com/s/photos/singer for images.
-
+- https://youtube.com/ for all video content.
 ### Ackwnowledgements
 - I would like to thank my Code Institute mentor Antonio Rodriguez for all of his help, tips and feedback. 
 - My Cohort facilitator Kasia for all of her help and encouragement throughout the project.
