@@ -66,7 +66,7 @@ Live site: https://romcgill.github.io/when-they-said/index.html
 ## User Experience (UX)
 --------------------
 
-### User stories
+### User Stories
 
 #### First Time Visitor Goals
 
@@ -112,7 +112,7 @@ Live site: https://romcgill.github.io/when-they-said/index.html
 _____
 ### Colour Scheme
 
--   The colour scheme used is black, white and alice blue for great contrast and readability. Imagery was used to add extra pops of colour and interest to the basic palette.
+-   The colour scheme used is Black, White and Alice Blue for great contrast and readability. Imagery was used to add extra pops of colour and interest to the basic palette.
 
 ![](https://lh5.googleusercontent.com/HPdFnYJd1P_eORpwY7no6FMa6amHfn9V1Rw1tOLmu5_6KlWbZaAC1w4oE4Czw0bRYR_zX2Rz5uXoNp6M3MNZWHTytHyL7_Y9jtXuYe0AEU3yoC8dSGC0F4gO7zlcUGGWNjIlfhfi)
 
@@ -120,7 +120,7 @@ _____
 
 -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font, this is in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate. It is also familiar and widely used. This gives the user a feeling of familiarity and trust towards the site.
 
-* (update) The new font family used for the nav bar is 'Segoe UI', I chose this font after receiving feedback from family and friends who thought that montserrat was too sharp to be at the top of the page and would be better left for the page content instead. As a back up I added in some other font families that are not unlinke Segoe UI with a final destination of sans-serif if all else fails.
+* (update) The new font family used for the nav bar is 'Segoe UI', I chose this font after receiving feedback from family and friends who thought that Montserrat was too sharp to be at the top of the page and would be better left for the page content instead. As a back-up I added in some other font families that are not unlinke Segoe UI with a final destination of sans-serif if all else fails.
 ```r
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 ```
@@ -137,15 +137,15 @@ The hover animation used for the character images which make them bounce was als
 
 ![](https://lh5.googleusercontent.com/m8YuWVrXgpg9_N7DjJ_8-DwCMz1RCqjtbS63IvlGrUyjpzsLt-VEk1bt_AO5Ij7O6bejYAFhj2onqmAg_5GDg-pGoSLSWAPrVSgdPBdojy9-ZOGZgmicWghdRcGgQvguqFUxYfvs)
 
-When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a catch 22. Following best practice rules for ux it is unusual and untypical to have this happen. 
+When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a Catch 22. Following best practice rules for UX it is unusual and untypical to have this happen. 
 ### (This feature has since been removed following feedback from my mentor and other code institute students in the peer code review channel on slack.)
 
 ![](https://lh4.googleusercontent.com/N4dHqRzplD8wAGFjkKEykYQj0kVDauKgX9CKXqd9YMxyb4rSXXuSByPQvjcnONO-AHOKpCjoKOEWxxNU2bPDK3B6HzKI7JIKLHRlcF-ocCEgnz5gFYMCtQJ1DQhyHrzEK2eAR902)
 
-using the z-index the character hovers over the nav bar when scrolling through the sections. This was implemented intentionally and serves a purpose, that purpose being that when the user is scrolling through that section of the page their attention is kept to that specific section. This was done to avoid any distraction and lead to a user clicking away before they found what they are looking for. It also adds a refreshing design element that may interest or excite the user.
+Using the z-index the character hovers over the nav bar when scrolling through the sections. This was implemented intentionally and serves a purpose, that purpose being that when the user is scrolling through that section of the page their attention is kept to that specific section. This was done to avoid any distraction and lead to a user clicking away before they found what they are looking for. It also adds a refreshing design element that may interest or excite the user.
 
 #  Wireframes
-### Home Page Wireframe
+### Homepage Wireframe
 
 ![](https://lh3.googleusercontent.com/z-tz-ylO_li4Ma11Dcr7WPeIJov7YrYWxXgy3c9t_kBdWxSkp4MU_MSL92qgTBi4woMR48vZvCIkdIgeK2Qwp302SZ2A0wwufxrTx-7z_b9Qy-LRwRV7SlglrY21_B_DDyKKMB_p)
 
@@ -153,11 +153,11 @@ using the z-index the character hovers over the nav bar when scrolling through t
 
 ![](https://lh3.googleusercontent.com/IELRQ3H7bYnjX8PJRNV4rUpFfdKtN698XFlmgesk51DYb3wZ-KQL90onRHfqm7-_rkGeWjimaGVDv_1q29u5tM0716yKgxOjS8XQgKyM_0l7cVF0st8Ppy7DeIY6UJ91MJ80RLXm)
 
-### genre pages and footer
+### Genre Pages and Footer
 
 ![](https://lh5.googleusercontent.com/dlhmGBBX7CI4_VWVJbMUglw4CQkP-fH4x-uauxO8GqqQeYzif3lUGUAPCEvnXJJjd1ZictXJw4I0zxHMCwCITPxwPMBoQvFcb_eekoeQ-QrI2bzoMgEpX_xVqXfPvgryr2O3Txa1)
 
-### Genre page and footer mobile
+### Genre Page and Footer Mobile
 
 ![](https://lh4.googleusercontent.com/UwmpnRAjwu0Wu-dMdlACus-Qxe-SiAyakaxHkaoVefHtVw5zZ1Ag-YjXcXPUuEpai1ZviyeSV8btyM4Hf5nIHXkcdFIcrLBYr5aoj01SB1mVpKNjyeEHtsk4059pu-exqw8muTjp)
 
@@ -165,7 +165,7 @@ using the z-index the character hovers over the nav bar when scrolling through t
 
 ![](https://lh6.googleusercontent.com/Df6T3JECogovO4bvVH1izS0BQtwho8GEMA1wtSbnz3IfHcCYCToT99cSoJsQ1rpo4bM4qPDvayXQSdMmExLKrwtnfr6Giaa2BCliEoXWL9LghnthqHEfVZ3gpG18XqO-PMSw6v0g)
 
-### Contribute page wireframe mobile
+### Contribute Page Wireframe Mobile
 
 ![](https://lh5.googleusercontent.com/KRUdDBZeQOwbcxVXhNYRYsWY2CEW5dx2stwAhPoBt_XhamHUVJavJ9LvDgR-Kc7-3rzSg3RkSgGFHZgvlHvHQL9sWqwMkN4Z6PVLZ1lsTziPFulpae6YjG04BNOzy8bTDPiA5bd9)
 
@@ -202,24 +202,24 @@ Resulting email.
 
 Example (code for characters to re-align if screen width is less than 800px) 
 
-html
+HTML
 ```
- <div class="charachter-container">
-    <div id="charachter-1">
+ <div class="character-container">
+    <div id="character-1">
     <a href="hip-hop.html">
-    <img src="./assets/images/hiphop.png" class="charachter"  alt="hip-hop charachter">Click me to learn about HIPHOP</a> 
+    <img src="./assets/images/hiphop.png" class="character"  alt="hip-hop character">Click me to learn about HIPHOP</a> 
 ```   
-css
+CSS
 ```{r}.
  @media screen and (max-width:800px){
-    .charachter-container{
+    .character-container{
         display: grid;
         gap: 1.5rem;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         
     }
-    #charachter-1{
+    #character-1{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
@@ -237,7 +237,7 @@ css
 
 Example (code for my header and nav bar.) 
 
-html
+HTML
 ```{r}. 
  <header>
         <a href="index.html">
@@ -256,7 +256,7 @@ html
             
     </header>
 ```    
-css       
+CSS      
 ```{r}.
  header {
     position: fixed;
@@ -278,7 +278,7 @@ css
 
 Example (HTML and css code for my footer) 
 
-html
+HTML
 ```{r}. 
 <div>
     <footer>
@@ -300,7 +300,7 @@ html
     </footer>
     </div>
 ``` 
-css          
+CSS         
 ```{r}.
 footer .footer{
     text-align: center;
@@ -334,7 +334,7 @@ footer I {
 
 Example (code to link formspree and creating/styling the form) 
 
-html
+HTML
 ```{r}. 
 <section>
             <div class="container">
@@ -369,7 +369,7 @@ html
         </div>
     </section>
 ```  
-css         
+CSS        
 ```{r}.
 .form-group {
     width: 100%;
@@ -406,7 +406,7 @@ css
     background-color: rgb(214, 226, 236);
   }
 ```
-html formspree
+HTML Formspree
 ```{r}.
  <form action="https://formspree.io/f/myyoyanj" method="POST" id="my-form">
 ```
@@ -414,13 +414,13 @@ html formspree
 ![screenshot of contribute form](./assets/images/screenshot-of-form.png)
 
 -----
-## Features still to be added.
-1. I would like the form data to be automatically uploaded onto the live site
+## Features Still to be Added.
+1. I would like the form data to be automatically uploaded onto the live site.
 
 *When a user submits their favourite song and the meaning or story behind it I want that data to be uploaded to the site instantly or after an approval phase.*
 
-- This would require more knowledge of java script and backend frameworks.
-I have looked into this and have found someone using google apps script to populate a google sheet from form data enteries you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-populate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).  
+- This would require more knowledge of Java Script and backend frameworks.
+I have looked into this and have found someone using Google Apps Script to populate a google sheet from form data entries you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-populate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).  
 - I think another way to achieve this could be to create a forum page and have the action of post and the URL linked to a new forum submission so when a user enters data into the form it will get sent to the new submissions area on the forum page. This may not be the best way to implement such a feature but might be my only option without knowledge of java script or any backend frameworks or API's.  
 
 2. I would like to have a hamburger menu on my nav bar for when viewing on mobile devices.  
@@ -437,7 +437,7 @@ This is possible to do with javascript and a media query and I intend to add thi
 
 
  The site is written with only HTML and CSS my testing will be focused on accessibility,functionality and the visual asthetic.  
- 1. #### Accesability
+ 1. #### Accessability
  To test the accessibility of my site I carried out some manual testing using google dev tools, amiresponsive and different devices and screen sizes. One thing I was looking for was if my media queries were performing as expected. To achieve this I used dev tools to resize each page of the site in each test the media queries functions how I expected without fault.
  2. #### Functionality
  - To test the functionality of the site I used a combination of manual testing and markup validators. Using the W3C markup validator the site had no errors or warnings to show on any page.
@@ -451,7 +451,7 @@ This is possible to do with javascript and a media query and I intend to add thi
  ![css validator](./assets/images/css-validator.png)
  - Manual Testing. 
  To test the site manually I ensured that all links opened to the correct page and all of the pages in the nav bar lead to the correct destination. I have also made many submissions into the form to make sure that everything is functioning as it should, throughout the process of coding the website I was continuously testing every feature added and never left a feature that didnt work in the project until it was fully functional.
-3. #### Visual asthetic
+3. #### Visual aesthetic
  - I manually checked the colours on my site using colors.co, I did this because I felt that the contrast validators were not great at recognising where the colours are on the page. They try to contrast two colours that are not relevant to eachother. Using colors.co the contrast between the text and background received a score of 11.63 and 4 out of 5 stars.
  ![contrast check](./assets/images/contrast-check.png)
 ----
@@ -461,9 +461,9 @@ This is possible to do with javascript and a media query and I intend to add thi
  - Fix
  After getting some advice from my mentor the fix was to use display-grid and divide the the container by fractions, this allowed me to have 4 columns and 2 rows when the screen size was more than 800px. I then added a media query with the max width of 800px and divided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
  
-css
+CSS
 ```r
-.charachter-container{
+.character-container{
       display: grid;
       gap: 1.5rem;
       grid-template-columns: 1fr 1fr 1fr 1fr ;
@@ -473,13 +473,13 @@ css
 
     
   }
-  .charachter-container a {
+  .character-container a {
       text-decoration: none;
       font-size: small;
       text-align: center;
       color:#0645AD;
   }
-  #charachter-1{
+  #character-1{
     grid-column: 1;
     text-align: center;
     margin-right: auto;
@@ -487,7 +487,7 @@ css
     z-index: 4;
     
   }
-  #charachter-2{
+  #character-2{
     grid-column: 2;
     text-align: center;
     margin-right: auto;
@@ -495,7 +495,7 @@ css
     z-index: 3;
    
 }
-    #charachter-3{
+    #character-3{
         grid-column: 3;
         text-align: center;
     margin-right: auto;
@@ -503,7 +503,7 @@ css
     z-index: 3;
       
 }
-    #charachter-4{
+    #character-4{
         grid-column: 4;
         text-align: center;
     margin-right: auto;
@@ -512,55 +512,55 @@ css
     
 }
 @media screen and (max-width:800px){
-    .charachter-container{
+    .character-container{
         display: grid;
         gap: 1.5rem;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         
     }
-    #charachter-1{
+    #character-1{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
         
       }
-      #charachter-2{
+      #character-2{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
        
     }
-        #charachter-3{
+        #character-3{
             grid-column: 1;
             text-align: center;
         margin-right: auto;
         margin-left: auto;
           
     }
-        #charachter-4{
+        #character-4{
             grid-column: 1;
             text-align: center;
         margin-right: auto;
         margin-left: auto;
         }  
-        /* text under charachter */
+        /* text under character */
 
-        #charachter-text-1{
+        #character-text-1{
             grid-row: 1;
             grid-column: 2;
         }
-        #charachter-text-2{
+        #character-text-2{
             grid-row: 2;
             grid-column: 2;
         }
-        #charachter-text-3{
+        #character-text-3{
             grid-row: 3;
             grid-column: 2;
         }
-        #charachter-text-4{
+        #character-text-4{
             grid-row: 4;
             grid-column: 2;
         }
@@ -624,7 +624,7 @@ Press Enter. Your local clone will be created.
 - Unpacking objects: 100% (10/10), done.
 ```
 
-## Technologies used 
+## Technologies Used 
 ------
 ### Languages Used
 
@@ -665,7 +665,9 @@ This was my IDE and where I wrote all of my code, Made commits and pushed to Git
 - https://www.billboard.com/ + https://www.rollingstone.com/ for in depth information on the songs and artists.
 - https://www.freepik.com/ + https://www.shutterstock.com/ + https://unsplash.com/s/photos/singer for images.
 - https://youtube.com/ for all video content.
-### Ackwnowledgements
+
+### Acknowledgements
+
 - I would like to thank my Code Institute mentor Antonio Rodriguez for all of his help, tips and feedback. 
 - My Cohort facilitator Kasia for all of her help and encouragement throughout the project.
 - WEB CIFAR on youtube for a great video on how to set up formspree
