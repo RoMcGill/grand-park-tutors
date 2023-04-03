@@ -70,7 +70,7 @@ h2 {
     background-color: #000000;
     border-radius: 5px;
     color: aliceblue;
-   
+
 }
 /* .menu media query for burger dropdown menu */
 @media  screen and (max-width:628px) {
@@ -82,7 +82,7 @@ h2 {
     }
     .menu{
         letter-spacing: 0px;
-        
+
     }
 }
 
@@ -91,6 +91,7 @@ h2 {
 /* hero image */
 .hero{
 width: 100%;
+padding: 0;
 
 }
 
@@ -101,14 +102,14 @@ width: 100%;
     width: 100%;
     overflow: hidden;
     margin-top: 50px;
-    
+
 }
 .text-overlay{
     position: absolute;
     top: 60%;
     left: 43%;
     width: 375px;
-    background-color: rgba(130, 136, 130, 0.5);
+    background-color: rgba(130, 136, 130, 0.7);
     border-radius: 10px;
     color: seashell;
     padding: 20px;
@@ -122,7 +123,7 @@ width: 100%;
     top: 35%;
     left: 40%;
     width: 200px;
-    background-color: rgba(130, 136, 130, 0.4);
+    background-color: rgba(130, 136, 130, 0.7);
     border-radius: 10px;
     text-align: center;
     padding: 20px;
@@ -144,14 +145,14 @@ width: 100%;
     margin: 0 auto;
     line-height: 30px;
     text-align: center;
-    
+
 }
 
 /* links to pages with each genre */
 .genre-links ul{
     margin: 0px;
     float: right;
-   
+
 }
 
 .genre-links li{
@@ -159,8 +160,8 @@ width: 100%;
     list-style-type: none;
     margin-right: 65px;
     margin-left: 65px;
-    
-  
+
+
 }
 /* svg charachters to represent each genre */
 
@@ -168,7 +169,7 @@ width: 100%;
     height: 200px;
     text-align: center;
     display: block;
-    
+
 }
 /*  bounce code learned from https://css-tricks.com/making-css-animations-feel-natural/ */
 
@@ -192,17 +193,17 @@ width: 100%;
   .genre-links h3{
       text-align: center;
       display:block;
-     
+
   }
   .character-container{
       display: grid;
       gap: 1.5rem;
-      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      grid-template-columns: 2fr 2fr ;
       grid-template-rows: 2fr 2fr;
       padding: 30px 14px;
-      
 
-    
+
+
   }
   .character-container a {
       text-decoration: none;
@@ -215,32 +216,32 @@ width: 100%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    
-    
+
+
   }
   #character-2{
     grid-column: 2;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    
-   
+
+
 }
     #character-3{
         grid-column: 3;
         text-align: center;
     margin-right: auto;
     margin-left: auto;
-  
-      
+
+
 }
     #character-4{
         grid-column: 4;
         text-align: center;
     margin-right: auto;
     margin-left: auto;
-  
-    
+
+
 }
 @media screen and (max-width:800px){
     .character-container{
@@ -248,35 +249,35 @@ width: 100%;
         gap: 1.5rem;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        
+
     }
     #character-1{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-        
+
       }
       #character-2{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-       
+
     }
         #character-3{
             grid-column: 1;
             text-align: center;
         margin-right: auto;
         margin-left: auto;
-          
+
     }
         #character-4{
             grid-column: 1;
             text-align: center;
         margin-right: auto;
         margin-left: auto;
-        }  
+        }
         /* text under character */
 
         #character-text-1{
@@ -292,22 +293,22 @@ width: 100%;
             grid-column: 2;
         }
         #character-text-4{
-            grid-row: 4;
+            grid-row: 2;
             grid-column: 2;
         }
-        
+
 }
 /* footer */
 footer .footer{
     text-align: center;
-    
+
 }
 
 .footer > li{
     display: inline;
     height: 20px;
     text-align: center;
-   
+
 }
 footer i {
     font-size: 160%;
@@ -315,7 +316,7 @@ footer i {
     padding: 5%;
     color: lightslategray;
     text-align: center;
-    
+
 }
 /* contribute form - some styling learned from https://www.youtube.com/watch?v=vc9rgFHr098&t=290s */
 
@@ -358,7 +359,7 @@ footer i {
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
   }
-  
+
   textarea {
     resize: vertical;
   }
@@ -382,19 +383,19 @@ footer i {
   /* genre pages */
 
   .songs-container{
- 
+
       padding: 30px 15px 15px;
 
   }
 
-  
+
   .songs-container h3{
       background-color: grey;
       color: rgb(240, 248, 255);
       text-align: center;
       border-radius: 10px;
       padding: 20px;
-  
+
   }
   .song-content{
       text-align: center;
@@ -403,7 +404,7 @@ footer i {
         #songs-text-4{
             grid-row: 1;
             grid-column: 2;
-       
+
         }
         #songs-text-2{
             grid-row: 2;
@@ -421,7 +422,7 @@ footer i {
         .video{
             position: relative;
             width: 65%;
-            padding-bottom: 45%; 
+            padding-bottom: 45%;
             height: 0;
           }
           .video iframe{
