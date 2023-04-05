@@ -59,8 +59,8 @@ Live site: https://romcgill.github.io/when-they-said/index.html
 
 -----
 
- 
- 
+
+
 
 
 ## User Experience (UX)
@@ -106,13 +106,13 @@ Live site: https://romcgill.github.io/when-they-said/index.html
 
 -   As a Frequent User, I want to get in contact with the site owner and see how I can be more involved in the development of the community I love.
 
--  As a Frequent User I want to be able to access the site on all of my devices. 
+-  As a Frequent User I want to be able to access the site on all of my devices.
 
 ## Design
 _____
 ### Colour Scheme
 
--   The colour scheme used is Black, White and Alice Blue for great contrast and readability. Imagery was used to add extra pops of colour and interest to the basic palette.
+-   The colour scheme used is Black, White and Alice Blue for great contrast and readability. Imagery was used to add extra locationss of colour and interest to the basic palette.
 
 ![](https://lh5.googleusercontent.com/HPdFnYJd1P_eORpwY7no6FMa6amHfn9V1Rw1tOLmu5_6KlWbZaAC1w4oE4Czw0bRYR_zX2Rz5uXoNp6M3MNZWHTytHyL7_Y9jtXuYe0AEU3yoC8dSGC0F4gO7zlcUGGWNjIlfhfi)
 
@@ -137,7 +137,7 @@ The hover animation used for the character images which make them bounce was als
 
 ![](https://lh5.googleusercontent.com/m8YuWVrXgpg9_N7DjJ_8-DwCMz1RCqjtbS63IvlGrUyjpzsLt-VEk1bt_AO5Ij7O6bejYAFhj2onqmAg_5GDg-pGoSLSWAPrVSgdPBdojy9-ZOGZgmicWghdRcGgQvguqFUxYfvs)
 
-When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a Catch 22. Following best practice rules for UX it is unusual and untypical to have this happen. 
+When the site is viewed on a mobile device the imagery for the genre links (the characters) hover over the nav bar at the top of the screen. This was intentional and also a Catch 22. Following best practice rules for UX it is unusual and untypical to have this happen.
 ### (This feature has since been removed following feedback from my mentor and other code institute students in the peer code review channel on slack.)
 
 ![](https://lh4.googleusercontent.com/N4dHqRzplD8wAGFjkKEykYQj0kVDauKgX9CKXqd9YMxyb4rSXXuSByPQvjcnONO-AHOKpCjoKOEWxxNU2bPDK3B6HzKI7JIKLHRlcF-ocCEgnz5gFYMCtQJ1DQhyHrzEK2eAR902)
@@ -200,15 +200,15 @@ Resulting email.
 > " As a Frequent User I want to use the site on my phone while I am away from my desk."
 - The site uses a combination of the Grid layout and media queries to achieve this.
 
-Example (code for characters to re-align if screen width is less than 800px) 
+Example (code for characters to re-align if screen width is less than 800px)
 
 HTML
 ```
  <div class="character-container">
     <div id="character-1">
-    <a href="hip-hop.html">
-    <img src="./assets/images/hiphop.png" class="character"  alt="hip-hop character">Click me to learn about HIPHOP</a> 
-```   
+    <a href="tutors.html">
+    <img src="./assets/images/hiphop.png" class="character"  alt="tutors character">Click me to learn about HIPHOP</a>
+```
 CSS
 ```{r}.
  @media screen and (max-width:800px){
@@ -217,46 +217,46 @@ CSS
         gap: 1.5rem;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        
+
     }
     #character-1{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-        
+
       }
 ```
 ![screenshot of landing page on iphone](./assets/images/screenshot-of-landing-page-on-mobile.png)
 
 -----------
 
-2.  The site is easy to navigate 
+2.  The site is easy to navigate
 > " As a First Time Visitor, I want to be able to easily navigate throughout the site to find content that relates to my interests."
 - The site uses a header with a fixed position so the user can always navigate to each page with ease.
 
-Example (code for my header and nav bar.) 
+Example (code for my header and nav bar.)
 
 HTML
-```{r}. 
+```{r}.
  <header>
         <a href="index.html">
             <h1 class="logo">When They Said</h1>
         </a>
-    <!--nav bar--> 
+    <!--nav bar-->
 <nav class= "menu">
     <ul>
-        <li class="genre-links"><a href="rock.html"><I class="fas fa-guitar"></I>Rock</a></li>
-        <li class="genre-links"><a href="hip-hop.html"><I class="fas fa-music"></I>Hip-Hop</a></li>
-        <li class="genre-links"><a href="country.html"><I class="fas fa-headphones"></I>Country</a></li>
-        <li class="genre-links"><a href="pop.html" ><I class="fas fa-microphone"></I>Pop</a></li>
+        <li class="genre-links"><a href="lessons.html"><I class="fas fa-guitar"></I>lessons</a></li>
+        <li class="genre-links"><a href="tutors.html"><I class="fas fa-music"></I>tutors</a></li>
+        <li class="genre-links"><a href="timetable.html"><I class="fas fa-headphones"></I>timetable</a></li>
+        <li class="genre-links"><a href="locations.html" ><I class="fas fa-microphone"></I>locations</a></li>
         <li class="genre-links"><a href="form.html"><I class="fas fa-file-upload"></I>Contribute</a></li>
     </ul>
 </nav>
-            
+
     </header>
-```    
-CSS      
+```
+CSS
 ```{r}.
  header {
     position: fixed;
@@ -274,12 +274,12 @@ CSS
 
 3. The footer element is at the bottom of each page with clearly defined social media links represented by icons.
 > " As Returning Visitor, I want to find community links and a way to personally connect with other community members on a platform that I am more familiar with."
-- The site uses icons from fontawesome.com to achieve this and some css styling to make the icons match the colour scheme of the site. 
+- The site uses icons from fontawesome.com to achieve this and some css styling to make the icons match the colour scheme of the site.
 
-Example (HTML and css code for my footer) 
+Example (HTML and css code for my footer)
 
 HTML
-```{r}. 
+```{r}.
 <div>
     <footer>
         <ul class= "footer">
@@ -296,11 +296,11 @@ HTML
                 <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page (opens in a new tab)"> <I class="fab fa-youtube"></I></a>
             </li>
         </ul>
-    
+
     </footer>
     </div>
-``` 
-CSS         
+```
+CSS
 ```{r}.
 footer .footer{
     text-align: center;
@@ -312,7 +312,7 @@ footer .footer{
     height: 20px;
     /*background-color: #316B83;*/
     text-align: center;
-   
+
 }
 footer I {
     font-size: 160%;
@@ -321,7 +321,7 @@ footer I {
     color: lightslategray;
     /*background-color: #316B83;*/
     text-align: center;
-    
+
 }
 ```
 ![screenshot of footer](./assets/images/screenshot-of-footer.png)
@@ -332,24 +332,24 @@ footer I {
 > " As a Frequent User, I want to contribute more and help with the growth of the community.
 - To achieve this the Contribute form is linked to formspree which allows the site owner to receive form data directly to their email address. This data is then converted to HTML and uploaded as content to the site. This technique of linking formspree was learned from the youtube video https://www.youtube.com/watch?v=vc9rgFHr098&t=290s
 
-Example (code to link formspree and creating/styling the form) 
+Example (code to link formspree and creating/styling the form)
 
 HTML
-```{r}. 
+```{r}.
 <section>
             <div class="container">
               <form action="https://formspree.io/f/myyoyanj" method="POST" id="my-form">
-          
+
                 <div class="form-group">
                   <label for="firstName">Name</label>
                   <input type="text" id="firstName" name="firstName" required>
                 </div>
-          
+
                 <div class="form-group">
                   <label for="songname">Song Name</label>
                   <input type="text" id="songname" name="songname" required>
                 </div>
-          
+
                 <div class="form-group">
                   <label for="email">Email</label>
                   <input type="email" id="email" name="email" required>
@@ -359,7 +359,7 @@ HTML
                   <label for="text">Add your text here.</label>
                   <textarea name="text" id="text" cols="30" rows="10" required></textarea>
                 </div>
-          
+
                 <button type="submit">Submit</button>
               </form>
             </div>
@@ -368,8 +368,8 @@ HTML
 
         </div>
     </section>
-```  
-CSS        
+```
+CSS
 ```{r}.
 .form-group {
     width: 100%;
@@ -384,7 +384,7 @@ CSS
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
   }
-  
+
   textarea {
     resize: vertical;
   }
@@ -420,11 +420,11 @@ HTML Formspree
 *When a user submits their favourite song and the meaning or story behind it I want that data to be uploaded to the site instantly or after an approval phase.*
 
 - This would require more knowledge of Java Script and backend frameworks.
-I have looked into this and have found someone using Google Apps Script to populate a google sheet from form data entries you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-populate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).  
-- I think another way to achieve this could be to create a forum page and have the action of post and the URL linked to a new forum submission so when a user enters data into the form it will get sent to the new submissions area on the forum page. This may not be the best way to implement such a feature but might be my only option without knowledge of java script or any backend frameworks or API's.  
+I have looked into this and have found someone using Google Apps Script to locationsulate a google sheet from form data entries you can view this here. (https://support.google.com/docs/thread/48344518/solved-auto-update-auto-locationsulate-the-form-with-realtime-data-from-sheet-after-response-is-submitted?hl=en).
+- I think another way to achieve this could be to create a forum page and have the action of post and the URL linked to a new forum submission so when a user enters data into the form it will get sent to the new submissions area on the forum page. This may not be the best way to implement such a feature but might be my only option without knowledge of java script or any backend frameworks or API's.
 
-2. I would like to have a hamburger menu on my nav bar for when viewing on mobile devices.  
-*On some devices the links can be cluttered and lack breathing room which I think negatively impacts the asthetic of the nav bar*. 
+2. I would like to have a hamburger menu on my nav bar for when viewing on mobile devices.
+*On some devices the links can be cluttered and lack breathing room which I think negatively impacts the asthetic of the nav bar*.
 This is possible to do with javascript and a media query and I intend to add this feature soon. I have started my research on youtube to grasp the basic concept one video I found helpful was https://www.youtube.com/watch?v=dIyVTjJAkLw&t=200s
 
 3. I would like to add the option to create an account and store users information and allow them to post/upload directly onto the site. To achieve this I would need more backend knowledge from what I have seen in this video https://www.youtube.com/watch?v=gCo6JqGMi30 it seems like PHP and MYSQLi databases must be used also.
@@ -433,10 +433,10 @@ This is possible to do with javascript and a media query and I intend to add thi
 
 
 ------
-## Testing 
+## Testing
 
 
- The site is written with only HTML and CSS my testing will be focused on accessibility,functionality and the visual asthetic.  
+ The site is written with only HTML and CSS my testing will be focused on accessibility,functionality and the visual asthetic.
  1. #### Accessability
  To test the accessibility of my site I carried out some manual testing using google dev tools, amiresponsive and different devices and screen sizes. One thing I was looking for was if my media queries were performing as expected. To achieve this I used dev tools to resize each page of the site in each test the media queries functions how I expected without fault.
  2. #### Functionality
@@ -449,18 +449,18 @@ This is possible to do with javascript and a media query and I intend to add thi
  I am confident once google fixes this bug my site will achieve 100 in every category.
  I used the The W3C CSS Validation Service to test my CSS code, The result came back with no errors.
  ![css validator](./assets/images/css-validator.png)
- - Manual Testing. 
+ - Manual Testing.
  To test the site manually I ensured that all links opened to the correct page and all of the pages in the nav bar lead to the correct destination. I have also made many submissions into the form to make sure that everything is functioning as it should, throughout the process of coding the website I was continuously testing every feature added and never left a feature that didnt work in the project until it was fully functional.
 3. #### Visual aesthetic
  - I manually checked the colours on my site using colors.co, I did this because I felt that the contrast validators were not great at recognising where the colours are on the page. They try to contrast two colours that are not relevant to eachother. Using colors.co the contrast between the text and background received a score of 11.63 and 4 out of 5 stars.
  ![contrast check](./assets/images/contrast-check.png)
 ----
- ## Bugs/Fixes 
- 
- 1. On my landing page for desktop use I wanted to layout my "genre characters" with text underneath them until the screen size reached a width of 800px. As this was early on in the project I did not know whether to use Flex, Grid, or Floats.  
+ ## Bugs/Fixes
+
+ 1. On my landing page for desktop use I wanted to layout my "genre characters" with text underneath them until the screen size reached a width of 800px. As this was early on in the project I did not know whether to use Flex, Grid, or Floats.
  - Fix
- After getting some advice from my mentor the fix was to use display-grid and divide the the container by fractions, this allowed me to have 4 columns and 2 rows when the screen size was more than 800px. I then added a media query with the max width of 800px and divided the container to have 4 rows and 2 columns. This gave me my desired outcome.  
- 
+ After getting some advice from my mentor the fix was to use display-grid and divide the the container by fractions, this allowed me to have 4 columns and 2 rows when the screen size was more than 800px. I then added a media query with the max width of 800px and divided the container to have 4 rows and 2 columns. This gave me my desired outcome.
+
 CSS
 ```r
 .character-container{
@@ -469,9 +469,9 @@ CSS
       grid-template-columns: 1fr 1fr 1fr 1fr ;
       grid-template-rows: 2fr 2fr;
       padding: 30px 14px;
-      
 
-    
+
+
   }
   .character-container a {
       text-decoration: none;
@@ -485,7 +485,7 @@ CSS
     margin-right: auto;
     margin-left: auto;
     z-index: 4;
-    
+
   }
   #character-2{
     grid-column: 2;
@@ -493,7 +493,7 @@ CSS
     margin-right: auto;
     margin-left: auto;
     z-index: 3;
-   
+
 }
     #character-3{
         grid-column: 3;
@@ -501,7 +501,7 @@ CSS
     margin-right: auto;
     margin-left: auto;
     z-index: 3;
-      
+
 }
     #character-4{
         grid-column: 4;
@@ -509,7 +509,7 @@ CSS
     margin-right: auto;
     margin-left: auto;
     z-index: 1;
-    
+
 }
 @media screen and (max-width:800px){
     .character-container{
@@ -517,35 +517,35 @@ CSS
         gap: 1.5rem;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        
+
     }
     #character-1{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-        
+
       }
       #character-2{
         grid-column: 1;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
-       
+
     }
         #character-3{
             grid-column: 1;
             text-align: center;
         margin-right: auto;
         margin-left: auto;
-          
+
     }
         #character-4{
             grid-column: 1;
             text-align: center;
         margin-right: auto;
         margin-left: auto;
-        }  
+        }
         /* text under character */
 
         #character-text-1{
@@ -564,7 +564,7 @@ CSS
             grid-row: 4;
             grid-column: 2;
         }
-        
+
 }
 ````
 How I worked out the issue on paper
@@ -578,26 +578,26 @@ Outcome
 ------
 ## Deployment
 
-For this project I have used Gitpod. throughout the process I have been adding and committing code to my Github repository. From there I can deploy my live site to make it accessible to everyone. I do this by using Github Pages.  
+For this project I have used Gitpod. throughout the process I have been adding and committing code to my Github repository. From there I can deploy my live site to make it accessible to everyone. I do this by using Github Pages.
 1.
 From my Github repository navigate to settings on the far right near the top of the page
 ![step one for deployment](./assets/images/step-1-deployment.png)
 ![step one for deployment](./assets/images/step-2-deployment.png)
 2.
 In the left hand side of the screen there will be a list of options, from these options select pages
-![step 2 for deployment](./assets/images/step-3-deployment.png)   
+![step 2 for deployment](./assets/images/step-3-deployment.png)
 3.
 When in the pages section select "branch : main" as the source and ensure the directory is selected as "/(root)"
-then click save. (my save button is currently grey and unclickable as I have aready deployed my site). 
+then click save. (my save button is currently grey and unclickable as I have aready deployed my site).
 
-![step 3 for deployment](./assets/images/step-5-deplyment.png) 
+![step 3 for deployment](./assets/images/step-5-deplyment.png)
 4.
 When all of the previous steps are complete you should be given this message
 ![step 4 for deplyment](./assets/images/step-6-deployment.png)
 
 The site is now live and ready to view by anyone with the link. It can take Github a couple of minutes to push all of the data to the live site and to publish the page.
 
-## Forking the GitHub Repository. 
+## Forking the GitHub Repository.
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
@@ -614,7 +614,7 @@ Open Git Bash
 Change the current working directory to the location where you want the cloned directory to be made.
 Type git clone, and then paste the URL you copied in Step 3.
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter. Your local clone will be created. 
+Press Enter. Your local clone will be created.
 ```
  git clone : https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
 - Cloning into `CI-Clone`...
@@ -624,7 +624,7 @@ Press Enter. Your local clone will be created.
 - Unpacking objects: 100% (10/10), done.
 ```
 
-## Technologies Used 
+## Technologies Used
 ------
 ### Languages Used
 
@@ -660,7 +660,7 @@ This was my IDE and where I wrote all of my code, Made commits and pushed to Git
 
 ## Credits
 -----
-### Content and media 
+### Content and media
 - https://www.wikipedia.org/ for information on music genres.
 - https://www.billboard.com/ + https://www.rollingstone.com/ for in depth information on the songs and artists.
 - https://www.freepik.com/ + https://www.shutterstock.com/ + https://unsplash.com/s/photos/singer for images.
@@ -668,7 +668,7 @@ This was my IDE and where I wrote all of my code, Made commits and pushed to Git
 
 ### Acknowledgements
 
-- I would like to thank my Code Institute mentor Antonio Rodriguez for all of his help, tips and feedback. 
+- I would like to thank my Code Institute mentor Antonio Rodriguez for all of his help, tips and feedback.
 - My Cohort facilitator Kasia for all of her help and encouragement throughout the project.
 - WEB CIFAR on youtube for a great video on how to set up formspree
 - The stackoverflow community for responding to questions and having built up a massive database of invaluable tips,tricks and bug fixes
@@ -677,4 +677,4 @@ This was my IDE and where I wrote all of my code, Made commits and pushed to Git
 - Kevin Powell on youtube for all of his Css tips and tricks.
 - Fellow students at Code Institute for answering all of my questions.
 - Peter Szabo for his attention to detail and great feedback.
-- Code Institute for supplying an amazing course, from the content to the staff and alumni. 
+- Code Institute for supplying an amazing course, from the content to the staff and alumni.
