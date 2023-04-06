@@ -171,6 +171,13 @@ padding: 0;
     display: block;
 
 }
+.character1{
+    height:400px;
+    text-align: center;
+    display: block;
+    margin: 0  auto;
+
+}
 /*  bounce code learned from https://css-tricks.com/making-css-animations-feel-natural/ */
 
 /* .character:hover{
