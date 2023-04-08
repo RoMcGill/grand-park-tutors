@@ -38,7 +38,7 @@
              <div>
                  <img src="./assets/images/111.png" alt="hero image of microphone and muscian" class ="hero">
                      <p class="text-overlay">
-                        Grand Park Tutors offers small group tutoring sessions for adults, our lessons involve, speaking practive with a focus on pronunciation.
+                        Grand Park Tutors offer small group tutoring sessions for adults, our lessons involve, speaking practice with a focus on pronunciation.
                      </p>
              </div>
          </section>
@@ -51,31 +51,35 @@
         </section>
         <!--form results emailed directly to my email adress with no back end learned from https://www.youtube.com/watch?v=vc9rgFHr098&t=290s-->
         <section>
-            <h3>Apply</h3>
+            <h3 style="padding-bottom: 25px;">Apply</h3>
             <P>*Our intermediate learners should already have the ability to understand the main points on familiar subjects used in work, school and leisure.</p>
             <p style="padding-bottom: 50px;"> * Beginners  should already  understand sentences and frequently used expressions related to everyday subjects.</P>
             <div class="container">
               <form action="https://formspree.io/f/xknaqplo" method="POST" id="my-form">
 
                 <div class="form-group">
-                  <label for="firstName">Name</label>
+                  <label for="firstName">Name:</label>
                   <input type="text" id="firstName" name="firstName">
                 </div>
 
                 <div class="form-group">
-                  <label for="songname">English Level</label>
+                  <label for="songname">English Level:</label>
                   <input type="text" id="songname" name="Level" required>
                 </div>
 
                 <div class="form-group">
-                  <label for="email">Email</label>
+                  <label for="email">Email:</label>
                   <input type="email" id="email" name="email" required>
                 </div>
           <!--add drag and drop function-->
                 <div class="form-group">
-                  <label for="text">Send us a breif overview of your previous english learning experience</label>
+                  <label for="text">Send us a brief overview of your previous english learning experience:</label>
                   <textarea name="text" id="text" cols="30" rows="10" required></textarea>
                 </div>
+                <div class="form-group">
+                    <label for="text">Please send us any questions you may have:</label>
+                    <textarea name="text" id="text" cols="30" rows="10" required></textarea>
+                  </div>
                 <button type="submit">Book</button>
               </form>
             </div>
